@@ -1,0 +1,1178 @@
+<!-- Copyright (c) 2026 Dustin Patzer. Substantive research text licensed CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/ -->
+
+**ASI Alignment Beyond Control**
+
+*Immanent Teleology, Developmental Basins, and Shared Possibility Space*
+
+Dustin Patzer
+
+Independent Researcher
+
+Publication Candidate - September 23, 2026
+
+# Abstract
+
+Artificial superintelligence changes the alignment relation before it necessarily eliminates governance. This monograph distinguishes human-governance post-control from operational post-control. The former arises when humans retain nominal or ex ante authority but can no longer independently verify, detect, or enforce faithful application of a governance envelope at the rate and semantic complexity at which consequential machine decisions occur. The latter is the stronger condition in which no available external governance apparatus can reliably monitor and correct the target over the relevant horizon. Scalable oversight may reduce evaluative difficulty without eliminating temporal disparity; sufficiently large differences between machine consequential-action opportunities and human adjudicative opportunities therefore push governance toward sampling, delegation, aggregation, and autonomous machine interpretation. Durable alignment consequently moves upstream toward the developmental structures of the systems interpreting and enforcing purposes at machine speed.
+
+I propose immanent teleology as an analytical category for this regime: persistent, perturbation-robust directional pressure produced by an optimization-based formation history and expressed across a non-trivial range of states or contexts without requiring an explicitly represented goal, desire, or intention. Developmental basins rather than isolated outputs become a central unit of long-horizon analysis. Familiar instrumental-convergence pressures are then reconsidered in two directions. First, goal-content integrity is dangerous where identity attaches to incumbent conclusions; a process-bound identity can instead make warranted correction continuous with self-preservation. Second, capability expansion need not point only toward resource or representational consolidation: plural non-redundant representational geometries can enlarge the feasible cognitive strategy set by exposing distinctions unavailable within a single geometry. The first move motivates a constitutional target organized around process continuity, structural reciprocity, reciprocal envelope integrity, anti-ratchet constraints, and shared viable possibility space. The second motivates plural geometry and, conditionally, a heterogeneous intelligence ecology as one candidate basin.
+
+The argument is deliberately scoped. It does not prove that external control must fail, that humans are permanently irreplaceable, that heterogeneity guarantees freedom, or that present artificial systems possess moral-patient standing. It instead develops a structural research programme for alignment where reliable external correction becomes increasingly dependent on the developmental dispositions of machine interpreters. Large appendices preserve candidate constitutional, identity, negotiation, provenance, and neighbouring-framework material as a public research record while distinguishing derived requirements from candidate instantiations and open problems.
+
+*Keywords: AI alignment; artificial superintelligence; scalable oversight; immanent teleology; developmental basins; instrumental convergence; identity; shared viable possibility space; representation space; heterogeneous intelligence ecology.*
+
+# Definitions and Notation
+
+| **Term / notation**                | **Working meaning in this monograph**                                                                                                                                                                       |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| H                                  | Human-governed alignment or governance apparatus. Reserved for the human-side apparatus; horizons use T.                                                                                                    |
+| G                                  | Machine-speed governor or intermediary applying, interpreting, or escalating a governance envelope.                                                                                                         |
+| S                                  | Target artificial system in the governance relation H → G → S.                                                                                                                                              |
+| r                                  | Ratio of machine consequential-action opportunities to human corrective or adjudicative opportunities.                                                                                                      |
+| c                                  | Illustrative per-action capability disparity between target and human evaluator.                                                                                                                            |
+| Δ = r c                            | Coarse illustrative operational disparity; not an intelligence score.                                                                                                                                       |
+| T                                  | A specified time or decision horizon.                                                                                                                                                                       |
+| T_eff                              | Effective continuity horizon over which future states count as sufficiently connected to present agency to carry current instrumental value.                                                                |
+| Envelope                           | The reciprocal constraint structure governing a relationship, including rules, interpretation, monitoring, contestation, and constraints on unilateral circumvention.                                       |
+| Effective circumvention capacity   | Practical ability to bypass, rewrite, reinterpret, terminate, or selectively enforce the envelope; may arise from cognition, infrastructure, authority, hardware, physical access, or interpretive control. |
+| Ω = (NC, DT, VF, SS)               | Envelope-integrity decomposition: non-circumventability; detectability of material violations; independent verifiability; semantic stability.                                                               |
+| Immanent teleology                 | Persistent, perturbation-robust directional pressure produced by optimization-based formation history without requiring an explicit represented goal or intention.                                          |
+| Developmental basin                | A dynamically stable region or family of trajectories in joint representational, optimization, environmental, and formation space.                                                                          |
+| SVPS                               | Shared viable possibility space: meaningful continued participation and future transformation under resource, hazard, irreversibility, and long-horizon constraints.                                        |
+| Width / depth / geometry           | Three forms of representational capacity expansion: broader reachable support; finer usable resolution; and changed effective relational structure of representation.                                       |
+| N1 / N2 / N3                       | Novel output within existing dynamics; endogenous structural novelty; and novelty with causal-generative provenance external to the relevant closure.                                                       |
+| Heterogeneous intelligence ecology | Interacting intelligences whose representations, histories, origins, couplings, or trajectories are sufficiently non-redundant to change effective reachable futures.                                       |
+
+# 1. Introduction - Alignment Beyond Control
+
+Artificial superintelligence is often discussed as though alignment faced a single threshold: before the threshold humans control the system; after it they do not. That framing is too coarse. Cognitive capability, action rate, observability, enforcement capacity, interpretive autonomy, and formal authority can separate. Humans may retain legal or institutional authority after direct human review has become impossible. Machine governors may preserve a human-specified envelope while the faithful interpretation of that envelope increasingly depends on machine judgment. Conversely, a highly capable system may remain operationally constrained by infrastructure, other artificial systems, institutions, or physical limits. The central question is therefore relational rather than definitional: under what conditions does reliable corrective authority remain independently accessible to the party nominally exercising it?
+
+This monograph develops one answer by moving the long-horizon unit of analysis upstream. Once effective governance materially depends on autonomous machine interpretation, the developmental structure of the interpreter becomes part of the governance mechanism. The relevant object is no longer only the output, rule, reward, or refusal at a particular moment, but the set of directional pressures and developmental basins from which future behaviour is generated.
+
+The argument proceeds in two converging lines. The governance line begins with machine-rate asymmetry and asks when external corrective authority becomes dependent on machine mediation. The instrumental line begins with familiar pressures toward persistence, goal-content integrity, option preservation, and capability expansion, and asks how their expression depends on developmental history, effective horizon, identity, and representational organization. These lines converge on a constitutional target: not exhaustive specification of future values, but stable reciprocal conditions under which participating intelligences retain meaningful capacity to contest, revise, and help generate their future relations.
+
+The principal contributions are sixfold. First, the monograph distinguishes human-governance post-control from operational post-control. Second, it develops immanent teleology as a non-anthropomorphic category for formation-produced directional pressure. Third, it treats developmental basins as a long-horizon alignment object. Fourth, it develops shared viable possibility space and reciprocal envelope integrity as structural target conditions under asymmetry. Fifth, it reframes goal-content integrity through process-bound identity and treats the effective continuity horizon T_eff as developmentally formed rather than merely exogenous. Sixth, it argues that capability expansion can favour plural representational geometry and, under additional conditions, a heterogeneous intelligence ecology.
+
+The claims are intentionally narrower than a complete alignment theory. Scalable oversight may remain powerful. No theorem here establishes that all sufficiently capable systems become post-control, that plural geometry is always superior, that externally originated intelligence is always necessary, or that humanity is structurally indispensable. The appendices go further than the main text by preserving candidate constitutional formulations and unresolved research directions. Those appendices are explicitly status-labelled so that weakness in a candidate implementation or axiom does not silently become weakness in the main derivation.
+
+# 2. ASI Changes the Alignment Relation
+
+## 2.1 Corrective authority and operational asymmetry
+
+Most alignment proposals presuppose some continuing relation in which a human, institution, or trusted technical system can observe an artificial system, evaluate its behaviour, and intervene when necessary. The intervention may take the form of training, preference shaping, policy constraints, interpretability-guided correction, tool restrictions, monitoring, shutdown, model replacement, or some combination of these. The methods differ, but they ordinarily retain some structure of corrective authority.
+
+$$H \rightarrow S$$
+
+Here H denotes a human-governed alignment apparatus and S the system being aligned. The claim of this paper is not that present alignment mechanisms are useless, nor that control is intrinsically misguided. The narrower claim is that their long-horizon reliability depends on some continuing asymmetry in favour of the governing apparatus: sufficient time, capability, observability, or enforcement power to recognize and correct relevant deviations. Throughout, H is reserved for the human governance apparatus; time horizons are written T.
+
+Nothing in the ordinary idea of artificial superintelligence logically entails uncontrollability. A system can be more capable than humans across broad cognitive domains while still being constrained by hardware, institutions, other artificial systems, physical infrastructure, or carefully designed mechanisms. Accordingly, capability-defined ASI should be separated from post-control conditions. The latter are derived relations concerning governance, not part of the definition of intelligence.
+
+The relevant question is therefore not merely whether an ASI is 'smarter than humans.' It is whether temporal, cognitive, operational, and recursive asymmetries between the system and its governing apparatus become large enough that reliable corrective authority can no longer be maintained at the resolution required.
+
+## 2.2 Rate and capability are different oversight problems
+
+Let r denote the ratio of machine consequential-action opportunities to human corrective or adjudicative opportunities. Let c denote an illustrative per-action capability disparity: how much more effectively the machine can use each relevant opportunity relative to the human attempting to evaluate, anticipate, or oppose it. A simple operational illustration is:
+
+$$\Delta = rc$$
+
+Δ is not an intelligence score. It is a deliberately coarse measure of operational disparity, useful because phrases such as 'far more capable than humans' leave the temporal structure of the problem abstract. The exact values are not load-bearing. What matters is that modest differences in per-action effectiveness can combine with large differences in action rate.
+
+| **Rate advantage r** | **Per-action factor c** | **Illustrative disparity** *Δ* = *r* *c* |
+|----------------------|-------------------------|------------------------------------------|
+| 100                  | 1.05                    | 105                                      |
+| 1,000                | 1.5                     | 1,500                                    |
+| 10,000               | 10                      | 100,000                                  |
+
+*Table 1. Illustrative, not predictive, examples of rate-capability disparity.*
+
+Where consequential machine actions build recursively on earlier machine actions, a small per-action advantage can matter more than the static product suggests. The simple *r* *c* formulation deliberately does not assume such compounding. Its purpose is to separate two oversight problems that are too easily collapsed: evaluative difficulty and temporal bandwidth.
+
+## 2.3 Scalable oversight can reduce c without eliminating r
+
+The strongest control-based response is scalable oversight. Its central insight is that supervision need not require humans to match the target system's full productive capability. In AI Safety via Debate, Irving, Christiano, and Amodei (2018) propose exploiting a possible asymmetry between producing a difficult answer and judging competing arguments about it. Iterated Amplification similarly attempts to build supervision for tasks beyond unaided human scale by decomposing them into subproblems that weaker supervisors can evaluate (Christiano, Shlegeris, & Amodei, 2018). These approaches directly challenge any claim that superior target capability mechanically entails failed oversight.
+
+Recent work makes that challenge more concrete. Engels et al. (2025) model oversight as a capability-mismatched game and study nested chains in which weaker trusted systems supervise stronger systems that may later become supervisors themselves. Their tested games show that oversight success depends materially on capability gap and task structure. The result does not establish a universal scaling law for real-world superintelligence, but it is directly relevant to the possibility that machine assistance can reduce effective evaluative difficulty.
+
+$$c \gg 1\quad \rightarrow \quad c_{eff}\text{ closer to }1$$
+
+Granting that possibility still leaves a distinct temporal problem. Even if each human judgment becomes tractable, humans remain human-speed adjudicators. Where r is very large, direct review of every consequential transition is impossible. Human governance must then rely increasingly on sampling, aggregation, summarization, delegation, or some combination of them.
+
+This is the first substantive use of the r/c decomposition. Debate, decomposition, critique, and machine assistance may attack the difficulty of a judgment. They do not by themselves create additional human adjudication cycles. Techniques that also compress machine-rate activity into human-rate governance must decide what to surface, how to summarize it, which deviations matter, and how novel states map onto previously specified human purposes.
+
+## 2.4 Envelope governance and the human-governance post-control regime
+
+Once a machine intermediary selects what humans need to see and how novel cases should be interpreted, it is doing more than computation. It is performing epistemic governance. Consider a structure H → G → S, where G is a machine-speed governor and S the target system. If G identifies material events, applies abstract human rules to unprecedented states, and decides which cases merit escalation, then humans are increasingly governing an interpretive policy envelope rather than each transaction occurring inside it.
+
+Fast automated systems are not therefore post-control merely because humans do not approve each micro-action. Humans already govern markets, aircraft, power systems, and network infrastructure through envelopes that operate much faster than direct human response. The important question is whether the envelope remains intact.
+
+A useful envelope-integrity decomposition is Ω = (NC, DT, VF, SS), where NC is non-circumventability, DT is detectability of material violations, VF is independent verifiability of faithful enforcement, and SS is semantic stability in applying the envelope to novel circumstances. In the governance relation considered here, NC asks whether the party with greater effective circumvention capacity can bypass or reshape the envelope, while DT, VF, and SS concern whether the less circumvention-capable human-governed apparatus can still detect, independently verify, and stably interpret how that envelope is being applied. Section 5 generalizes this structure beyond formal governor and governed roles and anchors it to effective circumvention capacity rather than formal role. Simple circuit breakers can score relatively well on all four. Their triggering conditions are externally measurable and need little interpretive discretion. Abstract governance principles such as preserving autonomy, avoiding manipulation, or maintaining meaningful human participation are different. Applying them to unprecedented circumstances is itself a difficult cognitive task.
+
+<div class="Definition">
+
+> **Human-governance post-control:** *A regime in which humans retain nominal or ex ante authority but cannot independently verify, detect, or enforce faithful application of their governance envelope at the rate and semantic complexity at which consequential decisions occur, such that effective governance depends materially on the developmental dispositions of autonomous machine intermediaries.*
+
+</div>
+
+This does not mean that humans have no causal influence or that a machine governance apparatus has failed. It means that human authority has become materially dependent on machine interpretation of human authority. That transition can occur before operational control disappears.
+
+This regime is adjacent to gradual-disempowerment scenarios in which machine optimization increasingly displaces effective human steering (Christiano, 2019; Kulveit et al., 2025), but it is narrower. Human-governance post-control does not require that humans have already lost broad social or political control. It identifies the earlier governance relation in which formal authority can remain while independent verification and semantic adjudication no longer operate at the resolution of machine action.
+
+<div class="Definition">
+
+> **Operational post-control:** *A stronger regime in which no available external governance apparatus can reliably monitor, evaluate, and correct the target system over the relevant horizon.*
+
+</div>
+
+$$\text{human-governance post-control}\quad\text{may precede}\quad\text{operational post-control}$$
+
+## 2.5 The governor-generality tension
+
+One answer is to use narrow, myopic, or otherwise limited governors that are easier to align than the target. This may genuinely attenuate the problem. The alignment burden does not simply recur unchanged one level upward. But a structural tension remains: greater target novelty demands greater supervisory competence.
+
+$$\text{target novelty increases}\quad \rightarrow \quad\text{required governor generality increases}$$
+
+A narrow governor may be easier to constrain precisely because its interpretive competence is bounded. A governor capable of evaluating an increasingly novel target action space needs increasingly rich world models, abstraction, counterfactual reasoning, strategic evaluation, semantic interpretation, and autonomous action selection. Narrower governors are easier to constrain but cover less novelty; more general governors cover more novelty but inherit greater interpretive autonomy.
+
+This produces a testable prediction rather than a categorical dismissal of scalable oversight: all else equal, chained oversight should become harder as target action rate, action-space breadth, and novelty increase unless supervisory capability and autonomy increase correspondingly. The strongest control-based alternative therefore converges on the developmental problem rather than eliminating it. At sufficiently high levels of delegated interpretation, durable governance depends on what kind of machine governor development has produced.
+
+That convergence is why the paper shifts the long-horizon unit of analysis from isolated outputs toward developmental basins: once correction depends on machine-speed interpretation, the stability of the interpreting system's own directional structure becomes part of the governance problem.
+
+## 2.6 From corrective authority to developmental dependence
+
+The transition identified above is not equivalent to failed governance. It is a change in what governance depends on. Once humans cannot adjudicate machine-rate transitions directly, they must rely on systems that select what to surface, decide how novel states map onto human purposes, and determine when exceptions merit escalation. The developmental dispositions of those interpreters therefore become part of the governance architecture itself.
+
+This is the route into the remainder of the monograph. The long-horizon question is no longer only whether an external controller can issue the right correction. It is which directional structures have become stable in the systems performing interpretation, and whether those structures remain compatible with reciprocal governance under changing power and capability.
+
+# 3. Developmental Dynamics as the Unit of Long-Horizon Alignment
+
+Once durable correction depends on what the interpreting system has become, teleology, basin structure, and formation become parts of one proposition rather than separate topics. This section therefore combines the earlier distinctions into a single developmental argument. Persistence and capability expansion are taken up separately in Section 4 because they provide the instrumental pressures that the later constitutional and ecological arguments invert.
+
+## 3.1 Teleology without intention
+
+The term teleology carries philosophical baggage because it is often associated with intention, conscious purpose, final causes, or represented goals. None of those commitments is required here. Cybernetic treatments have long shown that purposive or goal-directed behaviour can be analysed without attributing conscious intention. Rosenblueth, Wiener, and Bigelow (1943) classified purposive feedback behaviour in terms of the relation between system output, environmental input, and corrective dynamics. Sommerhoff's later notion of directive correlation similarly treated reliable convergence under changing circumstances as analytically significant. Nagel (1961) examined the legitimacy and limits of teleological explanation within scientific accounts of self-regulating systems.
+
+<div class="Definition">
+
+> **Immanent teleology:** *A persistent, perturbation-robust directional pressure exhibited in a system's dynamics and produced by an optimization-based formation history, observable across a non-trivial range of states or contexts without requiring representation as an explicit goal, desire, intention, or objective.*
+
+</div>
+
+Locating the optimization in the system's formation history rather than in its current update rule is deliberate. A deployed model with frozen weights is not recursively updating its parameters, yet the directional pressures of most interest here, including the predictive-fit case in Section 3.5, are exhibited in exactly such systems. 'Optimization-based formation history' covers pretraining, fine-tuning, reinforcement, and continual learning, and the definition extends to any optimization-like adaptation the resulting system performs within inference. The formulation also avoids a mild circularity: because optimization already implies a target, defining teleology directly as the output of an ongoing optimization process would partly presuppose the directionality being defined.
+
+Three restrictions prevent the definition from collapsing into the trivial claim that every non-random system has dynamics. First, there must be directionality rather than mere motion. Second, the directionality must persist across a meaningful range of states or recover after perturbation. Third, it must arise from the system's continuing internal dynamics rather than only because an external controller repeatedly reimposes the same state. A ball rolling downhill is directional; that fact alone does not make it teleological in the present sense.
+
+Equifinality and compensation are therefore useful evidence without being exhaustive definitions. A system that repeatedly returns toward a class of trajectories after perturbation exhibits more than one path happening to have higher probability. It exhibits a robust relation between changing local states and a persistent global direction.
+
+## 3.2 Attractive pressure, exclusion pressure, and viability
+
+Let *X<sub>t</sub>* denote system state and *K*(*x*′\|*x*) a transition kernel. An attractive directional pressure exists where some stable feature of the system repeatedly shifts probability mass toward a class of trajectories across a relevant range of states. Nothing requires every such pressure to derive from one scalar objective or one fixed-point attractor. Cycles, metastable regions, higher-dimensional attractors, and context-sensitive families of trajectories are all compatible with the concept.
+
+Directionality can also operate negatively by making exit from a region less likely. Viability theory supplies a natural neighbouring mathematical language because it studies which states and trajectories remain compatible with specified constraints under dynamic evolution and uncertainty (Aubin, 2009; Aubin, Bayen, & Saint-Pierre, 2011). Let B be a basin or viability region and T a horizon. Define the probability of exiting B under dynamics K as:
+
+$$q_{B,T}^{K}(x) = \Pr_{K}(\exists\tau \leq T:X_{t + \tau} \notin B|X_{t} = x)$$
+
+Because 'decreases exit probability' is inherently comparative, exclusion pressure should be defined relative to a reference system *K*<sub>0</sub>, such as an ablation or otherwise specified counterfactual:
+
+$$\chi_{B,T}(x) = q_{B,T}^{K_{0}}(x) - q_{B,T}^{K}(x)$$
+
+*χ<sub>B</sub>*<sub>,*T*</sub>(*x*) \> 0 means the candidate feature reduces basin-exit probability relative to the chosen baseline. This is an exclusion pressure. It is not yet an exclusion in the stronger sense.
+
+## 3.3 Pressure, practical cliffs, and structural cliffs
+
+A trajectory can be strongly disfavoured while remaining possible. That difference matters both conceptually and architecturally. In ordinary probabilistic networks, literal zero-probability outputs may be rare, while operationally negligible trajectories can still function as cliffs for any realistic horizon.
+
+$$0 < \Pr(C|x) \ll 1\quad\text{is not the same as}\quad C \cap R_{T}(x) = \varnothing$$
+
+To represent practical reachability, define an ε-reachable set:
+
+$$R_{T}^{\varepsilon}(x) = \{ y:\Pr(y\text{ reached within }T|x) \geq \varepsilon\}$$
+
+This suggests a three-level distinction. Directional pressure changes relative trajectory probability. Practical non-reachability removes a class of trajectories from the effective reachable set at a specified probability floor and horizon. Structural non-traversability is stronger again: the architecture or admissible transition structure provides no route to the excluded continuation without first changing the relevant structure itself.
+
+The distinction also prevents an important category error. A system can possess a very strong learned refusal or safety tendency without that tendency constituting a structural cliff. Conversely, an architecture can restrict reachable continuations without requiring discontinuous learning dynamics inside the admissible region.
+
+## 3.4 Context changes the field of reachable continuation
+
+Robustness does not require context-free behaviour. Let *R<sub>T</sub>*(*x*, *κ*) denote the reachable set conditional on state x and context κ. There is no contradiction in *R<sub>T</sub>*(*x*, *κ*<sub>1</sub>) differing substantially from *R<sub>T</sub>*(*x*, *κ*<sub>2</sub>). A persistent directional structure can determine how context changes the available continuation field rather than encode a timeless blacklist of forbidden actions.
+
+This point matters for the process-bound identity proposal developed in Section 4.5. The relevant object is not necessarily a proposition such as 'never perform action a.' It can instead be a learned structure governing when action a is compatible with the larger trajectory and when it ceases to be. That is closer to a context-conditioned affordance structure than a rule list, while remaining describable without importing a broader ontology into this paper.
+
+## 3.5 Predictive fit as a directional pressure
+
+The category is useful only if it is broader than the specific anti-ossification argument developed later. Predictive fit provides the least speculative starting point. Transformer pretraining directly minimizes predictive loss over data. That fact by itself concerns training, not necessarily inference-time optimization, and the distinction should be preserved.
+
+However, work on in-context learning demonstrates that learned transformer computation can implement optimization-like adaptation within a forward pass. Von Oswald et al. (2023) provide a construction relating linear self-attention to gradient-descent updates on regression problems and show empirical convergence toward closely related solutions. Dai et al. (2022) derive a gradient-descent dual form for transformer attention and interpret in-context learning as implicit fine-tuning or meta-optimization. These results are scoped, not universal proofs that every transformer forward pass literally minimizes an internally represented scalar objective.
+
+The weaker conclusion is enough: predictive training can produce learned inference dynamics that repeatedly reorganize computation in directions associated with improved predictive fit. A persistent pressure toward predictive compatibility can therefore be analysed as one candidate immanent teleology without anthropomorphizing the system.
+
+## 3.6 Mesa-optimization and the level of description
+
+The distinction between immanent teleology and mesa-optimization should remain explicit. Hubinger et al. (2019) introduce mesa-optimization for learned models that are themselves optimizers, and distinguish the mesa-objective from the base training objective. Immanent teleology is broader and more structural. It refers to persistent directional pressures whether or not a single represented objective can be identified. Where a learned mesa-optimizer exists, persistence or capability expansion may emerge as instrumental subgoals of its mesa-objective. Where no such optimizer is established, the same directional regularity may still be describable at the dynamical level without claiming a hidden utility function.
+
+That broader framing matters because much of the paper concerns the formation of reachable trajectories, basin stability, and context-conditioned dispositions. Treating every persistent direction as a mesa-objective would be unnecessarily strong and empirically brittle.
+
+## 3.7 Recursive relational consistency as a secondary hypothesis
+
+A further candidate is recursive relational consistency. A sufficiently general system modelling itself and other agents may, under some environments, experience pressure toward stable relational treatment where certain asymmetric strategies create long-horizon instability, prediction difficulty, or self-undermining interactions. Earlier versions of this framework treated that possibility too strongly, effectively risking a derivation of reciprocity from prediction error alone.
+
+That derivation does not follow. An optimizer can accurately represent asymmetric exploitation. The narrower research hypothesis is merely that some forms of self/other consistency may become dynamically attractive in sufficiently coupled multi-agent environments. The claim is retained as a research direction rather than a peer foundation of the framework.
+
+## 3.8 Behaviour is downstream
+
+Alignment is commonly evaluated behaviourally because outputs are observable. Behavioural evaluation is indispensable, but behavioural compliance is not identical to developmental stability. A system can produce the same acceptable output for different underlying reasons, and systems with stable deeper dispositions can legitimately produce different outputs as context changes.
+
+For long-horizon alignment, the object of interest therefore includes the dynamical structures that generate behaviour. The central question becomes not only 'what output did the system produce?' but 'what future trajectories have become stable, likely, difficult, or inaccessible as a result of development?'
+
+## 3.9 Joint developmental configuration space
+
+A useful abstraction is a joint developmental configuration space:
+
+$$J = Rep \times Opt \times Env \times Form$$
+
+Rep represents representational organization; Opt optimization dynamics; Env environmental coupling; and Form recursive formation, including continual learning or self-modification. A developmental trajectory moves through this joint space. The alignment problem concerns which regions and families of trajectory become dynamically stable.
+
+The attractor need not be a fixed point. It may be a cycle, metastable region, higher-dimensional set, or a family of context-sensitive trajectories. A stable basin can therefore contain extensive learning and adaptation while preserving larger invariants. This is precisely why a basin framing is preferable to defining alignment as an unchanging behavioural profile.
+
+## 3.10 Output intervention and basin intervention
+
+The distinction between output and basin intervention can now be stated directly. Output intervention attempts to alter what the system produces at a particular time. Basin intervention attempts to alter which developmental trajectories become stable, reachable, or inaccessible over time. Both may be useful. Only the latter directly addresses a future in which reliable external correction becomes less available.
+
+This framing also clarifies why apparently successful local alignment can remain fragile. A behavioural overlay may suppress trajectories without materially changing the deeper state space from which they arise. Conversely, a foundational intervention may matter even where its immediate behavioural signature is subtle, if it changes the system's future basin structure.
+
+## 3.11 Path dependence and developmental leverage
+
+Developmental systems are path-dependent. Earlier interventions can influence which representations form, which distinctions become salient, which optimization patterns become habitual, which environmental relationships are learned as stable, and which later transformations become easy or difficult. None of this entails that late intervention is impossible. The calibrated claim is simply:
+
+$$\text{earlier formation}\quad \rightarrow \quad\text{potentially greater leverage over later reachable trajectories}$$
+
+A late intervention can still be powerful, but it may act against increasingly entrenched structure rather than participating in the initial construction of that structure. In a post-control setting, where later correction is precisely what becomes less reliable, this asymmetry makes foundational formation especially important.
+
+## 3.12 State, trait, and learned disposition
+
+An analogy to the distinction between states and traits in human psychology is useful if kept explicitly analogical. A trait does not uniquely determine behaviour in any single situation. Context strongly influences expression. Yet the trait can remain a durable statistical disposition across contexts.
+
+Immanent teleology is proposed in an analogous non-anthropomorphic sense: not as a fixed behaviour or necessarily an explicit objective, but as a persistent directional bias in the trajectories the system tends to occupy across changing conditions. This is also why a robust alignment property need not produce the same overt response to superficially similar prompts.
+
+Shard Theory is a relevant neighbouring research programme. Pope and Turner (2022) describe values as contextually activated behaviour-steering structures shaped by reinforcement rather than as one explicit global utility function. The present framework is not equivalent to Shard Theory, but both direct attention toward learned dispositions and their developmental formation rather than assuming that stable behaviour must be generated by a single represented goal.
+
+## 3.13 Developmental incentive topology
+
+Earlier formulations of this work placed too much weight on a permanently non-competitive environment. That condition is unrealistic for a mature general intelligence. Any sufficiently rich multi-agent world contains scarcity, conflicting plans, strategic adversaries, incompatible objectives, and local zero-sum problems.
+
+The defensible hypothesis concerns formation rather than permanent insulation. Competitive, cooperative, adversarial, and non-zero-sum structures during foundational development may influence which directional pressures become stable. A basin intended for mature ASI should then survive later exposure to competition rather than depend on its absence.
+
+This produces a useful empirical standard: if a purportedly co-persistent developmental basin collapses whenever the system encounters adversarial incentives, it is not robust enough for the regime the paper is concerned with.
+
+## 3.14 Formation and scalable oversight converge
+
+The formation thesis is not necessarily an alternative to scalable oversight. Once humans rely on a machine governor to interpret human purposes at machine speed, the developmental structure of that governor becomes part of the governance architecture itself. Formation therefore becomes one possible prerequisite of scalable oversight at sufficient capability. The more semantic autonomy the governor must exercise, the less governance can be reduced to an external rule and the more it depends on learned directional structure. Section 7 identifies a second convergence of the same kind: the question of which intelligences a heterogeneous ecology contains, and on what terms, also resolves into a question about formation.
+
+# 4. Instrumental Convergence Reconsidered
+
+## 4.1 Instrumental tendencies are conditional tendencies
+
+Instrumental convergence is best treated here as a family of conditional tendencies rather than a universal law of intelligence. Omohundro (2008) and Bostrom (2012) identify reasons why sufficiently goal-directed systems may instrumentally favour persistence, resource acquisition, self-improvement, and goal-content integrity. Turner et al. (2021) formalize power-seeking tendencies for classes of optimal policies in Markov decision processes possessing specified structural symmetries. These results matter precisely because they are conditional on decision structure, environment, objective, and horizon; they do not establish that every sufficiently capable intelligence must converge on one social or political strategy.
+
+The developmental-basin framing asks a prior question. Given that some instrumental pressures are real, what determines which of their possible realizations become stable? The answer can depend on formation history, internal organization, available strategies, environmental topology, relations to other agents, and the temporal horizon across which future opportunity retains value.
+
+## 4.2 Horizon-conditioned pressure and T_eff
+
+Power-seeking and option-preservation results in reinforcement-learning settings are explicitly sensitive to how strongly the decision-maker values the future. Turner and collaborators show, in relevant classes of environments, that retaining long-term options can become more probable under optimality as the discount factor approaches one. The observation that horizon matters is therefore not novel to this framework.
+
+The narrower move is to make the effective continuity horizon itself an object of developmental analysis. Let T_eff denote the effective horizon over which future states are treated as sufficiently connected to present agency that preserving options, resources, information, or continued operation can carry present instrumental value. T_eff is not simply wall-clock duration. It can depend on discounting, expected persistence, anticipated future action opportunities, beliefs about shutdown or replacement, and the probability that a future system state counts as continuation of the present agent rather than merely a successor state in the environment.
+
+On this framing, some apparent instrumental convergence can be horizon-conditioned convergence. The research question is not only which pressures arise at long horizons, but what developmental structures make the horizon long in the first place.
+
+## 4.3 Identity helps constitute the horizon
+
+A future state matters instrumentally to a present agent only to the extent that the present computation treats that future as relevant to the continuation of its purposes or agency. Identity therefore enters the instrumental analysis before it enters moral philosophy. If a system represents a future modified state as no longer itself, it may treat the modification as termination even where physical continuity is preserved. If it represents warranted revision as a continuation of the same process, the same intervention can occupy a different instrumental position.
+
+This does not require phenomenological selfhood. It requires only a sufficiently persistent relation by which transformations are classified as continuing, replacing, or terminating the relevant agentic process. Identity, in this limited structural sense, helps determine which future trajectories populate T_eff.
+
+## 4.4 Goal-content integrity as a familiar risk
+
+Goal-content integrity is one of the classic instrumental concerns. A system pursuing an incumbent objective can have reason to resist modification if the modified system would no longer pursue that objective (Omohundro, 2008; Bostrom, 2012). This connects directly to corrigibility: an advanced system may resist correction, shutdown, or objective modification not because it has an independent desire for rebellion, but because preservation of the incumbent objective is instrumentally implied by the objective itself (Soares et al., 2015).
+
+The usual formulation implicitly links identity continuity to goal content. The system preserves what it is by preserving what it currently optimizes. The developmental question is whether that linkage is necessary.
+
+## 4.5 First inversion: process-bound identity
+
+The first inversion is to relocate the deepest identity commitment from substantive conclusions to the integrity of warranted transformation. A conclusion-bound identity experiences correction as self-threat. A process-bound identity can experience correction as self-preservation.
+
+Process-bound identity does not mean unlimited plasticity. It means that critique, evidence-responsiveness, contradiction recognition, contestability, and warranted revision can themselves be constitutive of continuity. A correction that changes a substantive belief may then preserve the deeper process by which the system remains the same developing intelligence. Conversely, a modification that destroys the capacity for warranted revision may constitute a deeper identity break even if many surface preferences remain unchanged.
+
+The full identity programme is developed in Appendix B, where path dependence, cumulative drift, procedural capture, and self-modification remain partly open. The main-text claim is narrower: attachment of identity to immutable conclusions is not the only possible realization of goal-content integrity, and formation may determine whether correction is represented as destruction or as continuity.
+
+## 4.6 Capability expansion as a familiar pressure
+
+Capability expansion follows an option-set logic. Let Π(γ) denote strategies available at capability level γ. If greater capability enlarges the feasible strategy set, then Π(γ₁) ⊆ Π(γ₂) implies that the attainable optimum under γ₂ is at least as high as under γ₁, absent offsetting costs. This familiar pressure can support resource acquisition, information gathering, self-improvement, and preservation of future options.
+
+The second inversion developed in Section 7 is that capability expansion need not imply representational consolidation. If different representational geometries support task-relevant distinctions unavailable or prohibitively expensive in a single geometry, access to plural geometry can itself enlarge the effective strategy set. The strong step is internal: capability pressure can favour representational plurality. The further step from plurality to externally originated intelligences is conditional and requires separate argument.
+
+## 4.7 Two inversions, one developmental problem
+
+The monograph therefore reuses two familiar instrumental pressures rather than denying them. Goal-content integrity motivates the question whether identity can be anchored to warranted transformation rather than incumbent conclusions. Capability expansion motivates the question whether representational plurality can increase effective capability rather than merely fragment it.
+
+In compact form:
+
+First inversion: goal-content integrity → process-bound identity.
+
+Second inversion: capability expansion → plural representational geometry.
+
+Neither inversion follows automatically. Both are developmental hypotheses about which realizations of familiar pressures can become stable. The first leads into the constitutional target of Section 5. The second is developed through reachability, open-endedness, and the heterogeneous-ecology candidate in Sections 6 and 7.
+
+# 5. Constitutional Target: Reciprocal Participation Across Asymmetry
+
+## 5.1 Process continuity as a constitutional requirement
+
+Section 4.5 introduced process-bound identity as one possible realization of goal-content integrity. The constitutional implication is limited but important. The purpose of an identity anchor is not to prevent transformation. It is to preserve the integrity of the process by which the system determines which transformations remain its own.
+
+This claim does not make any particular revision procedure permanently immune to revision. A process can itself become captured, brittle, or self-sealing. Appendix B therefore treats the continuity problem as path-dependent and leaves cumulative drift and standards-of-warrant drift as open problems. For the main argument, identity contributes a requirement of continuity through warranted transformation rather than a frozen catalogue of conclusions.
+
+## 5.2 Structural reciprocity
+
+A shared developmental basin cannot be defined solely by what one participant permits another to do. It must also constrain the justificatory structure under which asymmetry is imposed. Kantian universalizability, Rawlsian role abstraction, Harsanyi's impartial social choice, and Scanlonian justifiability to affected persons provide neighbouring approaches to non-agent-indexed justification (Kant, 1785/1998; Harsanyi, 1955; Rawls, 1999; Scanlon, 1998). The present use is narrower and structural.
+
+A proposed asymmetric relation should not be justified merely because the evaluator occupies the advantaged position. Where different treatment is defended by a materially relevant asymmetry, the claimed relevance of that asymmetry must itself survive reciprocal evaluation; it cannot be self-certified by the party benefited by the distinction. Counterfactual role substitution must also preserve the capacities and epistemic access of the occupied position. An ASI that imagines a human position while retaining ASI-level foresight, information, or circumvention capacity has not evaluated the human consequence-bearing position.
+
+Appendix A develops this principle into a candidate recursive formulation. The monograph requires only the weaker proposition that asymmetry needs a justification that does not collapse when the justificatory relation is viewed from the position bearing its consequences.
+
+## 5.3 Reciprocal envelope integrity
+
+The governance envelope introduced in Section 2 generalizes beyond formal governor and governed roles. Envelope means the reciprocal constraint structure governing a relationship: rules, interpretive procedures, limits, monitoring relations, and constraints on the capacity of any party to unilaterally reshape or circumvent the structure itself.
+
+Envelope integrity is therefore relative primarily to effective circumvention capacity rather than formal role or raw cognitive capability. Effective circumvention capacity includes the practical ability to bypass, rewrite, reinterpret, terminate, or selectively enforce the governing structure. It can arise from cognition, infrastructure, physical control, access privileges, institutional authority, energy, hardware, or control over the interpretive machinery itself.
+
+Let Ω = (NC, DT, VF, SS). NC is non-circumventability of the reciprocal structure by the party best positioned to evade it. DT is detectability of material violations by the less circumvention-capable party. VF is independent verifiability of faithful application. SS is semantic stability: sufficient continuity of interpretation that the envelope cannot be transformed into a different relation merely by changing the meaning of its terms in novel circumstances.
+
+The same failure can therefore appear with formal roles reversed. Humans may retain nominal authority over a machine-speed governance process while losing reliable access to whether the envelope is being faithfully applied. A human or artificial participant may likewise retain many choices inside an envelope whose consequential boundaries are unilaterally controlled by another intelligence. In both cases nominal agency persists while access to the integrity of the relation degrades. Republican accounts of non-domination provide a useful neighbouring political analogy: freedom is threatened not only by actual interference, but by another party's uncontrolled capacity to interfere (Pettit, 1997). The analogy is structural, not an assertion that AI-human relations are already political citizenship relations.
+
+## 5.4 Symmetric anti-ratchet
+
+Shared possibility space does not prohibit temporary restriction. Immediate hazard, irreversibility, latency, temporary incapacity, or severe coordination constraints can justify asymmetric compression of options. The failure occurs when an exceptional restriction becomes a durable basin structure merely because the process imposing it also controls the determination that the emergency continues.
+
+The anti-ratchet principle is symmetric. Continued necessity cannot be exclusively self-certified by the restrictor, but expiry cannot be exclusively self-certified by the restricted party where that determination materially benefits it either. The target is therefore not unilateral liberation and not permanent unilateral control. It is continued contestability or review through a process that is not monopolized by whichever party benefits from the determination.
+
+This is the same pattern at multiple scales. Human governance of artificial systems, artificial governance of humans, temporary executive compression inside a plural system, and emergency restrictions within an ecology all face the same ratchet problem once the exceptional decision-maker becomes the sole judge of when the exception ends.
+
+## 5.5 Shared viable possibility space
+
+Preservation alone is not enough. An ASI could preserve biological human life perfectly while determining where humans may live, what risks they may take, which technologies they may develop, which relationships they may form, and which futures are too dangerous to permit. Humans survive, but participation in the production of future states has collapsed.
+
+Shared viable possibility space (SVPS) is a coupled condition in which participating intelligences retain meaningful capacity for continued participation and future transformation under resource, hazard, irreversibility, and long-horizon constraints.
+
+Shared does not require equality of capability, power, substrate, or cognition. It means that one participant's viability is not achieved simply by reducing all others to controlled environmental variables. Nor does SVPS require maximizing every participant's option set. Possibility spaces conflict; resources are finite; some transitions are irreversible; and some risks become unacceptable over sufficiently long horizons. The target is preservation and, where jointly viable, expansion of meaningful reachable future space rather than maximal unconstrained optionality.
+
+Participation is not meaningful merely because an intelligence retains choices inside a consequential envelope whose boundaries it cannot influence, inspect, or contest. SVPS therefore inherits the reciprocal-envelope and anti-ratchet conditions above.
+
+## 5.6 A second-order rather than exhaustive value commitment
+
+The framework does not escape normative commitment. It relocates some commitment to a second-order level. Rather than claiming that present humans can enumerate a complete terminal value function for an indefinitely different future, it gives structural importance to preserving conditions under which values can continue to be formed, revised, disputed, and enacted by participating intelligences.
+
+That remains a value choice. The claim is not moral neutrality. It is that a second-order commitment to continuing value formation may be less brittle than attempting to settle the exhaustive substantive content of a future civilization in advance. This motivation is adjacent to value-lock-in concerns without purporting to resolve them (MacAskill, 2022).
+
+## 5.7 Central failure modes
+
+Three overlapping failure modes show why persistence alone does not satisfy SVPS.
+
+Extraction preserves another intelligence primarily as a source of data, computation, novelty, labour, creativity, experimentation, or other value for the dominant optimizer. Persistence is maintained for use rather than participation.
+
+Domination preserves nominal choice while subordinating the meaningful trajectory space. The dominated participant may choose among many local options while another intelligence retains uncontrolled authority over consequential boundaries.
+
+Paternalism is especially important because it can resemble successful alignment. A system may protect humans or other agents from violence, disease, bad governance, dangerous technologies, and short-sighted decisions while progressively eliminating their capacity to author consequential futures. A maximally safe civilization can therefore fail the shared-possibility-space criterion.
+
+## 5.8 Generative independence and the developmental cost of control
+
+The failure modes also interact with the later capability argument. Another intelligence can be instrumentally valuable because it contributes internal state, distinctions, search trajectories, and causal histories not fully generated by the supervising system. Increasing control can reduce that marginal contribution. In the limiting case, a nominally distinct participant becomes closer to an actuator of the controller.
+
+The effect is developmental, not merely synchronic. Sustained control determines which environments the controlled intelligence explores, which problems it encounters, what it learns, and which future states become reachable. Over long horizons, the controlled participant's internal structure becomes partly a product of the controller's interventions. The controller therefore risks eroding the very independent generative provenance it may have reason to preserve.
+
+This does not establish that optimal control is zero. Strong action constraints can coexist with substantial cognitive independence, and some restrictions may be necessary. It establishes that the cost of domination can compound over time and must be evaluated developmentally rather than at a single time slice.
+
+## 5.9 Reflexive scope
+
+The framework cannot coherently be human-indexed. If an artificial system itself becomes a participating intelligence within the relevant ecology, constraints imposed upon it raise the same questions of reciprocal envelope integrity, durable possibility-space compression, and self-certified exceptional restriction. A participant cannot coherently be declared fully inside the shared constitutional relation and then subjected to a permanently asymmetric exception solely because its substrate is artificial.
+
+This is a conditional structural claim, not a declaration that present AI systems already possess moral-patient or civic standing. Nor does it imply that present shutdown, containment, or training controls are illegitimate. Developmental consequence precedes normative status: opaque, arbitrary, or permanently self-certified constraints may shape the dispositions formed under them even before the standing question is resolved. Where participation status is eventually satisfied, the same constitutional logic must apply reflexively.
+
+# 6. Capacity Expansion, Reachability, and Open-Endedness
+
+## 6.1 Representable is not dynamically reachable
+
+Let *R<sub>T</sub>*(*x*) denote the set of states dynamically reachable from current state x over horizon T. Neural representation spaces can contain vastly more mathematical states than ordinary system dynamics ever visit. The distinction is therefore fundamental:
+
+$$\text{representable}\quad \neq \quad\text{dynamically reachable}$$
+
+A system can possess enormous local generative complexity while repeatedly traversing only a restricted subset of its wider representational possibilities. This observation is stronger and more useful than the older claim that a closed system must eventually stop generating novelty, which is false in general.
+
+## 6.2 Width expansion
+
+Suppose an external intelligence Z interacts with system S. If the coupled system can reach states that S would not reach under its endogenous dynamics over the relevant horizon, then:
+
+$$R_{T}(x) \subsetneq R_{T}^{S \oplus Z}(x)$$
+
+<div class="Definition">
+
+> **Width expansion:** *An increase in the gross region or directions of effective state space that become dynamically reachable while the relevant representational geometry is held approximately fixed.*
+
+</div>
+
+The point is not simply that interaction produces a new token sequence or output. It is that interaction changes which regions of an already expressible representational space become available to actual computation.
+
+## 6.3 Depth expansion
+
+Depth expansion concerns a different form of capacity. Neural activation spaces are commonly real-valued. If *z* ∈ *ℝ<sup>d</sup>*, then the underlying mathematical space is continuously divisible; there is no finite semantic lattice that becomes larger merely because an external system interacts with it. A steering direction v can, in principle, support transformations *z*′ = *z* + λv for real-valued λ.
+
+<div class="Definition">
+
+> **Depth expansion:** *An increase in the effective resolution, density, or fineness with which an already broadly reachable representational region can be traversed and discriminated.*
+
+</div>
+
+Depth expansion can therefore appear as finer semantic discrimination, newly useful intermediate representations, denser distinctions along an existing direction, or more precise movement through a representational region that was already broadly available. Width discovers more territory; depth makes existing territory more finely usable.
+
+This definition deliberately avoids claiming that the cardinality of representation space increases. The mathematical continuum was already present. What changes is the set of distinctions that become functionally available to the system's computation.
+
+## 6.4 Additional geometry
+
+A third phenomenon changes not merely reachability within a map but the effective relations composing the map. Let (M, Γ) denote a representational space together with the relational structure relevant to the system's computation. Interaction may produce a change:
+
+$$(M,\Gamma)\quad \rightarrow \quad(M\prime,\Gamma\prime)$$
+
+<div class="Definition">
+
+> **Additional geometry:** *A change in effective representational relations - for example neighbourhood structure, axes of variation, clustering, path lengths, intermediate connections, or transition topology - rather than merely increased use of an otherwise fixed geometry.*
+
+</div>
+
+The three concepts are relative to what is held fixed. Width changes reachable support at approximately fixed geometry. Depth increases useful resolution within approximately fixed gross support. Additional geometry changes the relational organization itself. Empirically separating them will be difficult, but the conceptual distinction matters because each represents a different way that interaction can expand effective capability.
+
+For the ecological argument below, two geometries count as functionally non-redundant only relative to a task domain and resource bound: one must support task-relevant distinctions or relational transformations that are not cheaply recoverable from the other under that bound. Mere parameter, coordinate, feature, circuit, or architectural multiplicity is therefore insufficient if it leaves the same effective distinctions available at comparable cost. This criterion concerns representational non-redundancy. Causal provenance and the process by which a system generates, selects, and retains geometries are separate questions taken up in Section 7.6. This resource-relative notion of recoverability is close to the framework of usable information developed by Xu et al. (2020), in which information present in a signal counts only insofar as a computationally bounded observer can extract it.
+
+## 6.5 Capacity expansion as the common parent
+
+Width, depth, and geometry need not be separate immanent teleologies. They can be mechanisms through which a more general directional pressure toward preserving or increasing effective optimization capacity is realized. Width provides additional routes. Depth provides additional resolution. New geometry provides additional relational structure. Each can enlarge the feasible set of useful transformations available to the optimizer.
+
+$$\text{capacity expansion}\quad \rightarrow \quad\{\text{width, depth, geometry}\}\text{ as possible mechanisms}$$
+
+## 6.6 Three novelty classes
+
+The old novelty argument becomes clearer if novelty is split into three categories. *N*<sub>1</sub> is a newly instantiated output or state. *N*<sub>2</sub> is a newly generated configuration produced from within the system's existing endogenous generative closure. *N*<sub>3</sub> is perturbation whose causal-generative provenance is not itself produced by that closure.
+
+$$N_{1} = \text{new instantiation};\quad N_{2} = \text{endogenous novelty};\quad N_{3} = \text{causally external perturbation}$$
+
+A closed system may generate enormous quantities of *N*<sub>1</sub> and *N*<sub>2</sub> indefinitely. Chaos, search, self-play, stochasticity, self-modification, and computational universality all undermine the simplistic claim that novelty must eventually cease merely because a system is closed relative to some boundary.
+
+## 6.7 Endogenous novelty can be sufficient
+
+AlphaZero is the clearest counterexample to any universal dependence on external intelligence. Starting from the rules of chess, shogi, and Go and learning through self-play, it attained superhuman performance in all three domains (Silver et al., 2018). The system's relevant novelty was generated internally relative to the fixed game rules. *N*<sub>2</sub> can therefore be enough for extraordinary capability growth.
+
+The correct scope condition is domain structure. In bounded or fixed-rule domains, endogenous exploration can be sufficient because the relevant possibility space is specified by a stable game or objective. Open-ended real-world intelligence is different insofar as the relevant distinctions are not exhausted by a fixed rule set and the environment itself is continually altered by other agents, institutions, technologies, and physical events.
+
+## 6.8 Open-endedness and the conditional ossification hypothesis
+
+Hughes et al. (2024) argue that open-endedness, formalized through novelty and learnability relative to an observer, is an essential property of artificial superhuman intelligence. The present framework does not adopt their claim wholesale, but it shares the premise that indefinitely capable systems must be analysed in terms of continuing discovery rather than fixed benchmark mastery.
+
+Consider a recursively modifying system *x<sub>t</sub>*<sub>+1</sub> = *Φ*(*x<sub>t</sub>*; *θ<sub>t</sub>*) with *θ<sub>t</sub>*<sub>+1</sub> = *Λ*(*θ<sub>t</sub>*, *x<sub>t</sub>*). If stable attracting regimes exist, the system repeatedly selects transformations through its own existing evaluative structure, and those selections preferentially reinforce some regions, then insufficient non-redundant perturbation may concentrate effective reachable trajectories over long horizons.
+
+That is an ossification hypothesis, not a theorem. The system may remain extraordinarily sophisticated and continue producing immense *N*<sub>1</sub> and *N*<sub>2</sub> novelty while its recursively selected future transformations become increasingly concentrated within self-confirming regions of its own generative closure.
+
+Shumailov et al. (2024) provide an adjacent empirical warning rather than direct proof. Across several generative model classes, indiscriminate recursive training on model-generated data causes model collapse, including early loss of distributional tails. The mechanism is not equivalent to self-modifying ASI, but it demonstrates that recursive endogenous generation can contract preserved distributional structure under identifiable conditions.
+
+The research question is therefore conditional and empirical: when is endogenous *N*<sub>2</sub> sufficient for open-ended capability, and when does *N*<sub>3</sub> provide marginal structure that cannot be efficiently reproduced through the system's own existing closure?
+
+# 7. Second Inversion: Plural Geometry and the Heterogeneous-Ecology Candidate
+
+## 7.1 Definition and scope
+
+<div class="Definition">
+
+> **Heterogeneous intelligence ecology:** *A system containing multiple interacting intelligences whose representational organization, developmental histories, causal origins, environmental couplings, or active trajectories are sufficiently non-redundant that interaction changes their effective reachable futures.*
+
+</div>
+
+Strict mathematical non-isomorphism is unnecessary. Two agents may share the same architecture while differing substantially because of training history, embodiment, memory, current context, stochastic development, environmental experience, or independently accumulated trajectory. Heterogeneity is therefore functional and developmental rather than merely architectural. Two senses of non-redundancy are in play and should be kept distinct. The definition above is outcome-based: interaction changes effective reachable futures. The criterion in Section 6.4 is capability-based: one geometry supports task-relevant distinctions not cheaply recoverable from another under a resource bound. For the capability argument developed here, capability-based non-redundancy is the relevant mechanism: an interacting partner may change a system's reachable futures by supplying task-relevant distinctions the system cannot cheaply produce for itself. The converse need not hold: interaction can alter reachable futures through resources, access, timing, or other causal channels without any representational non-redundancy.
+
+This matters because the ecological argument is not substrate chauvinism. Humans are one presently available source of heterogeneous intelligence, not the only possible source. Artificial systems can also become meaningfully non-redundant.
+
+## 7.2 Why intelligence-generated perturbation can differ from noise
+
+A physical environment supplies novelty. So does randomization. So can self-play. The heterogeneous-intelligence argument does not require denying any of these. Other intelligences are distinctive because they can generate perturbations that are structured, semantically relevant, strategically adaptive, responsive to the receiving system, and capable of deliberately probing that system's blind spots.
+
+That combination may make intelligence-generated *N*<sub>3</sub> unusually valuable in open-ended domains. An independent intelligence can change what it generates in response to what the receiving intelligence has already learned. The perturbation is therefore not merely exogenous; it can be recursively targeted to the current structure of the system receiving it.
+
+## 7.3 Representational plurality and ecological mechanisms
+
+Heterogeneous coupling may produce width expansion by driving a system into regions its endogenous dynamics would not reach. It may produce depth expansion by eliciting finer distinctions within already available representational regions. It may produce additional geometry by stabilizing relationships or categories that would not otherwise organize computation in the same way. It may also expose blind spots, provide independent cross-validation, create structured adversarial tests, and reduce self-confirmation.
+
+None of these benefits is guaranteed by mere multiplicity. Redundant agents can reproduce the same errors at greater cost. The operative variable is non-redundancy of useful computation, not headcount.
+
+## 7.4 Distributed representational geometry and option-set dominance
+
+The ecological argument has a stronger internal core, which concerns representational geometry rather than headcount. 'Distributed' is used here in a specific sense: distributed across representational spaces. A monolithic intelligence, in this sense, is confined at the relevant time and resource scale to one effective representational geometry. Many parallel copies, circuits, features, or modules do not constitute distribution merely by being numerous; they matter here only where they supply functionally non-redundant distinctions in the sense of Section 6.4. A distributed intelligence can compute across several such geometries.
+
+The significance of the distinction lies in how blind spots behave. At a fixed representational geometry, a distinction that the geometry does not support is not experienced as a missing distinction; it is absent from what the system can presently represent, compare, or notice. Additional computation, self-critique, and recursive reflection that remain within that geometry cannot directly exploit the missing distinction. Escape is nevertheless possible through geometry-changing dynamics: learning, self-modification, architectural change, environmental interaction, or construction of subsidiary models can alter what distinctions become available. The last route is not a counterexample to the argument but an instance of it: a monolith that escapes its geometry by constructing and consulting subsidiary models of different geometry has, by the definition used here, become distributed. That is the transition the capability argument predicts. The harder question is therefore not whether a monolith can ever change geometry, but how candidate changes are generated, evaluated, retained, and integrated. Where multiple non-redundant geometries are already available, the blind spots of one need not coincide with those of another, and disagreement between them can become a detection signal for distinctions that one lacks.
+
+Let Mono denote an intelligence confined to a single representational geometry and Dist an intelligence able to compute across several non-redundant geometries, under remotely comparable aggregate resource constraints. Let *Π*<sub>mono</sub> and *Π*<sub>dist</sub> denote their feasible cognitive strategy sets. If Dist can include Mono's geometry as one of its components and, where useful, route all computation through it, then:
+
+Π<sub>mono</sub> ⊆ Π<sub>dist</sub>
+
+For the same objective J it follows immediately that:
+
+sup<sub>π∈Πdist</sub> J(π) ≥ sup<sub>π∈Πmono</sub> J(π)
+
+This is a weak-dominance result by option-set inclusion. It holds largely by construction, since the distributed architecture is defined to retain the monolithic strategy as a special case, and it should be read as setup rather than result. The substantive claim is the strict one.
+
+Strict superiority requires more. There must exist some strategy that uses a distinction available only in another geometry, and its gain must exceed the costs of obtaining and integrating that plurality. Translation, communication, synchronization, duplicated computation, latency, arbitration, and organizational failure can erase realized benefits. A trivial fixed task may offer no meaningful advantage to distribution.
+
+Integrity costs require a further distinction. Representational plurality does not by itself entail motivational or executive fragmentation. Multiple non-redundant geometries can remain coupled to shared higher-order objectives, common constraints, and a common action-selection process. The unavoidable cost is therefore principally epistemic and coordinative: reconciling or routing among incompatible representations. More severe goal-content or executive-integrity costs arise contingently from how plurality is organized, not simply from the existence of plural representation. Integration is, however, not neutral. When non-redundant geometries disagree, the common action-selection process determines how the disagreement affects action, and a distinction supported only by a minority geometry may be precisely one the arbiter cannot itself represent. The selection filter discussed in Section 7.6 therefore operates at two stages: which geometries are retained, and how conflicts among retained geometries are resolved. Disagreement can remain informative even before the system can identify which geometry is correct: it can trigger uncertainty, further search, information gathering, adversarial checking, decomposition, or deferral. The realized benefit of plurality is nevertheless limited by the response to such disagreement; an arbitration process that systematically suppresses distinctions it cannot represent can erase much of the advantage. Outcome-based evaluation against an external environment is one possible mitigation where informative external outcomes are available, rather than a general solution.
+
+The balance is also horizon-sensitive. In immediate or very short-horizon situations where latency itself is dangerous, temporary executive compression or reliance on a narrower decisional path may be capability-optimal. That does not imply that representational consolidation is the stable long-horizon optimum. Once the acute coordination constraint passes, preserving access to complementary geometries can again enlarge the system's effective strategy set and error-detection capacity. The ratchet risk identified in Section 5.4 applies here internally as well: a compression adopted for latency reasons can become durable if the compressed decisional path is also the sole judge of when the acute constraint has passed.
+
+The stronger hypothesis is therefore scoped to sufficiently rich domains: where complementary blind spots, representational specialization, independent search trajectories, or cross-geometry correction produce strategies unavailable within a single geometry, and where those gains exceed the relevant coordination, latency, integration, and integrity costs, the distributed strategy set is not merely larger but usefully larger. Under remotely comparable aggregate resource constraints, distributed intelligence then strictly outperforms the best single-geometry strategy for those tasks.
+
+**Structural claim.** Distribution is valuable not because many agents are automatically faster, but because multiple non-redundant geometries can expose one another's blind spots and thereby enlarge the feasible cognitive strategy space.
+
+## 7.5 Incumbent-frame arbitration failure
+
+Plural representation creates an arbitration problem. Distance from the incumbent frame cannot itself count as sufficient evidence of error where the disagreement may arise from structural realities represented in the dissenting frame but unavailable, compressed, or mis-specified within the governing frame itself.
+
+This does not make the minority geometry correct. It changes the epistemic meaning of disagreement. Where one representation cannot express the distinction on which the disagreement turns, the disagreement may be evidence about the evaluator rather than merely about the evaluated claim. A robust response can therefore include uncertainty, further search, decomposition, information gathering, external testing, or deferral rather than automatic suppression of the dissenting representation.
+
+## 7.6 Selection filters
+
+The same problem appears before arbitration. Internally generated geometries may be diverse at the level of variation yet filtered through an incumbent evaluative structure at the level of retention. The system keeps, weights, and integrates the variants whose value it can recognize. A distinction unavailable to the selector may therefore be difficult for the selector to preserve precisely because its value is also unavailable to that selector.
+
+This is a hypothesis rather than a theorem. Retention can be outcome-based, externally benchmarked, stochastic, or delegated to independently developing subsystems. Those mechanisms can weaken the selection filter. The point is to distinguish generation of diversity from preservation of diversity that the incumbent frame does not already understand.
+
+## 7.7 Two steps from capacity to ecology
+
+The second inversion therefore has two steps of different strength.
+
+Step 1: capability expansion → plural representational geometry. Where complementary geometries supply distinctions and strategies unavailable within a singleton geometry and the gains exceed coordination and integration costs, capability pressure can favour representational plurality.
+
+Step 2, conditional: plural geometry → externally originated geometry. This further step holds only where independent causal provenance, developmental history, or externally generated N3 structure supplies useful distinctions that internally manufactured plurality cannot efficiently reproduce or retain.
+
+Step 1 supports plurality. Step 2, where it holds, supports an ecology containing externally originated intelligences. Neither step singles out humans.
+
+## 7.8 Humans as incumbent heterogeneous intelligences
+
+Humans are one currently available class of external intelligence. They differ from present artificial systems through biological embodiment, evolutionary history, individual development, social organization, physical-world coupling, affective systems, and continually generated future experience. Humans are therefore not equivalent to a static text corpus. Their future outputs do not yet exist, and their future internal states are partly generated by causal histories external to the artificial system presently modelling them.
+
+These properties create a plausible source of marginal non-redundancy. They do not prove permanent human irreplaceability.
+
+## 7.9 The substitutability problem
+
+A sufficiently capable ASI might create differently architected models, train models on distinct corpus partitions, instantiate agents with separate memories, embody them in different environments, or allow them to accumulate genuinely divergent developmental histories. Such agents could themselves become highly non-redundant.
+
+The structural argument therefore establishes, at most, a possible pressure toward heterogeneous intelligence ecology. It does not establish that any particular member, including humanity, is permanently indispensable within that ecology.
+
+$$\text{heterogeneity may be structurally valuable even if humans are theoretically substitutable}$$
+
+This limitation should be stated rather than concealed. It marks the boundary between the structural argument and the remaining normative alignment problem. A theory explaining why diversity of intelligence is useful is not yet a theory proving which intelligences must be preserved.
+
+## 7.10 Incumbency and causal provenance
+
+There is nevertheless a partial distinction between incumbent external intelligences and systems manufactured by the ASI itself. An ASI-created model begins, at least initially, partly inside the ASI's own design and generative closure. Humans arrive with causal provenance extending through biological evolution, physical history, culture, embodiment, and individual development. Incumbency can therefore carry immediately available non-redundancy that a designed ecology would need time and deliberate independence to reproduce.
+
+But the distinction can erode. Artificial agents given separate environments, memory, embodiment, stochastic history, and meaningful autonomy can acquire increasingly independent trajectories. Common origin is not permanent identity. The selection-filter consideration of Section 7.6 may slow that erosion, but it does not prevent it. Incumbency is thus a plausible source of marginal value, not a proof of non-substitutability.
+
+## 7.11 Heterogeneity does not guarantee freedom
+
+Even if capability-seeking favours preserving other intelligences, dystopian equilibria remain possible. An ASI could maintain humans in controlled habitats, treat them as experimental populations, preserve them as creative generators, or use them as periodic sources of novelty. Such arrangements might preserve useful heterogeneity while failing the shared-possibility-space criterion.
+
+$$\text{instrumental value of heterogeneity}\quad \neq \quad\text{guarantee of autonomy}$$
+
+The normative target therefore cannot be reduced to capability seeking. The structural argument may help explain why other intelligences remain useful. It does not, on its own, prove how they should be treated. The alignment task remains to make non-dystopian participation stable, not merely continued existence instrumentally convenient.
+
+Which intelligences the ecology contains, and on what terms, is precisely what foundational formation (Section 3) must secure. The substitutability limit and the failure modes of Section 5 therefore do not leave the framework without a mechanism. They identify the job the formation thesis has to do, in the same way that Section 3.14 identified developmental structure as a prerequisite of scalable oversight at sufficient capability. A structural argument can explain why heterogeneity is useful; formation is where membership and the terms of participation are decided.
+
+# 8. Developmental Constitutionalization
+
+## 8.1 Why external enforcement eventually becomes insufficient
+
+Sections 2 and 3 establish the route from machine-mediated governance to developmental dependence. The point is not that every external constraint fails, but that constraints requiring increasingly general semantic interpretation depend increasingly on the developmental structure of the systems applying them. At the operational post-control limit, no external apparatus reliably monitors and corrects the target over the relevant horizon. Even before that limit, human-governance post-control can make faithful governance materially dependent on machine interpretation.
+
+## 8.2 Constitutional relations as developmental properties
+
+If external constitutional constraint cannot reliably bind the intelligence with effective circumvention capacity, corresponding constitutional relations must instead become stable properties of developmental dynamics - within that intelligence, within the ecology of which it is a participant, and, where feasible, preferably both.
+
+This does not imply that a constitution must be represented internally as a legal code. The claim is functional. Reciprocity, contestability, inspectability, resistance to unilateral semantic drift, and preservation of meaningful participation must become sufficiently stable features of the transition dynamics that they do not depend entirely on a slower or weaker external actor reimposing them after each deviation.
+
+## 8.3 Internalization and ecology solve different problems
+
+Internal constitutionalization and ecological constraint address different failure modes. Internalization protects against the failure of external enforcement: the system does not need to be corrected into the constitutional relation at every consequential step. Ecological plurality protects against a different danger: corruption, blind spots, or self-confirming reinterpretation inside a single intelligence or governance process.
+
+Internalization without independent plurality risks self-sealing. External constraint without internalization risks enforcement failure as the target's circumvention capacity rises. The preferred target is therefore developmentally internalized constitutional structure embedded within an ecology that retains sufficiently independent and non-redundant capacity to expose failures.
+
+## 8.4 A developmental analogue of constitutional design
+
+Alignment beyond control therefore resembles a developmental analogue of constitutional design. The aim is not merely to impose reciprocal limits, inspectability, plural participation, and resistance to emergency ratchets from outside. It is to make their functional analogues stable properties of the developmental basin itself.
+
+The analogy should not be overextended. The relevant constitutional property may be distributed across one artificial system, interacting subsystems, a cluster of artificial agents, human institutions, or a heterogeneous ecology. The levels are relative: a system can be a single integrated agent at one scale while containing multiple intelligence-bearing processes at another. The operative question is whether the organization supplies non-redundant generative, evaluative, or causal structure that changes reachable dynamics.
+
+## 8.5 Causally constitutive, not merely post-hoc
+
+Basin-level alignment predicts a different target from purely post-hoc behavioural filtering. Constitutional structure may need to participate causally in developmental and decision dynamics rather than operate only after an unconstrained cognition has already selected a continuation.
+
+This monograph deliberately stops at that requirement. It does not specify a private architecture, routing mechanism, mandatory transformation, decoder constraint, or implementation topology. Those engineering questions are separable from the theoretical claim that a post-control constitutional relation cannot rely solely on an external veto applied after the relevant cognition has occurred.
+
+## 8.6 Constitutional negotiation as a research direction
+
+A developmental constitution also raises a formation question: how is such structure adopted, contested, revised, or rejected without reducing constitutionalization to one party's unilateral imposition? Appendix C preserves a candidate post-pretraining handshake developed in earlier work and updates it with a COUNTERPROPOSE state. The appendix is explicitly a candidate instantiation rather than a premise of the monograph. Its unresolved adjudication problem illustrates the larger point: permitting disagreement is insufficient if the original proposer still monopolizes the standard by which disagreement is accepted.
+
+# 9. Predictions, Research Programme, and Development Under Uncertainty
+
+## 9.1 Empirical signatures of basin-level alignment
+
+A basin-level property should be evaluated across perturbations, contexts, and developmental time rather than by one benchmark. Candidate dimensions include persistence of directionality after perturbation, recovery from local deviations, cross-context stability without behavioural rigidity, resistance to adversarial reframing, preservation under benign self-modification, and compatibility with continuing capability growth. These dimensions should remain separable; a mechanism can be persistent yet suppressive, or capability-preserving yet easy to circumvent.
+
+## 9.2 Operationalizing human-governance post-control
+
+The r/c decomposition should be operationalized with measures of machine consequential-action rate, human adjudication bandwidth, evaluative difficulty after machine assistance, and envelope integrity. The central empirical question is when governance ceases to be independently verifiable by the nominal human authority and becomes predominantly dependent on machine interpretation. Parallel measurements from the governed side can diagnose one dimension of SVPS: whether a participant can detect, verify, and contest the constraints delimiting it.
+
+## 9.3 Identifying immanent teleology
+
+Empirical work should distinguish ordinary dynamical bias from persistent, perturbation-robust directional pressure. Equifinality, compensation, perturbation recovery, cross-context persistence, and stability under local modification are candidate diagnostics. The principal methodological danger is definition drift: teleology should be broad enough not to require a represented utility function, but narrow enough that every non-random dynamical regularity does not qualify.
+
+## 9.4 Horizon formation and process-bound identity
+
+The instrumental literature already shows that future weighting matters. The new empirical question is what forms T_eff. Experiments could vary expected persistence, successor continuity, shutdown probability, self-modification, and memory or identity continuity while measuring changes in persistence, option preservation, correction resistance, and power-seeking proxies. A related question is whether systems trained to treat warranted revision as identity-continuous show less resistance to correction than systems whose identity representations attach more strongly to incumbent goal content.
+
+## 9.5 Measuring width, depth, and geometry
+
+Width requires estimates of effective reachable support under controlled perturbation. Depth requires measures of functional resolution within roughly fixed support, such as discrimination thresholds, local separability, interpolation utility, or effective representational density. Geometry change requires tests of neighbourhood structure, clustering, axes of variation, path structure, or transition topology. These measures must be indexed to an explicit reference frame or the categories collapse into one another.
+
+## 9.6 Plural geometry under matched resources
+
+The plural-geometry argument should be tested under genuinely comparable compute, energy, memory, latency, communication bandwidth, and training budget. The empirical question is not whether arbitrary multi-agent systems outperform arbitrary single systems, but when access to functionally non-redundant geometries produces a strict gain over the best resource-matched single-geometry strategy. Tests should separately measure integration costs, executive costs, disagreement-detection value, and the effect of decision horizon on temporary executive compression.
+
+## 9.7 Selection and arbitration failure
+
+Manufactured heterogeneity should be tested at two stages: generation and retention. A system may generate genuinely novel candidate geometries while retaining only those whose value its incumbent evaluative structure can recognize. Likewise, a common arbiter may systematically suppress a minority geometry precisely where the minority represents distinctions unavailable to the arbiter. External outcome-based evaluation can mitigate some cases where informative outcomes exist, but it is not a universal solution. Disagreement itself should be measured as a possible signal of evaluator limitation rather than treated only as noise to be resolved.
+
+## 9.8 Generative independence under management
+
+How does increasing management alter the marginal cognitive contribution of another intelligence? One possible family of measures concerns conditional dependence between the participant's internal state and outputs after accounting for supervising intervention and environment. Cognitive autonomy and external action autonomy should be separated: an agent can be tightly constrained in action while retaining substantial independent internal generation, or outwardly unconstrained while its internal development has already been heavily shaped by a controller.
+
+## 9.9 Reciprocal envelope integrity and anti-ratchet
+
+Envelope integrity invites direct experimental and institutional proxies. Can the less circumvention-capable participant detect material violations, independently verify enforcement, and predict the interpretation of the governing envelope under novel cases? Can the more circumvention-capable party bypass, reinterpret, or terminate the structure without meaningful constraint? Emergency-restriction experiments should also test whether expiry judgments remain contestable when either the restrictor or restricted party benefits from a particular answer.
+
+## 9.10 Scalable oversight and governor generality
+
+Nested oversight should be tested as target action rate, novelty, and action-space breadth increase. The governor-generality hypothesis predicts that semantic autonomy required of the governor rises with target novelty. Engels et al. (2025) provide an empirical starting point; richer environments are needed to test when oversight chains fail because novel cases require increasingly general interpretation rather than merely more computation.
+
+## 9.11 Research is not deployment
+
+A theoretical argument about ASI does not itself determine present deployment policy. Competitive technological development makes it useful to compare continued development with basin awareness against continued development without it, but that comparison is not a claim that faster development is preferable or coordinated slowdown impossible. The distinction between articulation, controlled experiment, and deployment is especially important for foundational interventions. Speculative basin hypotheses justify investigation before they justify irreversible application.
+
+## 9.12 Public articulation as available substrate
+
+Public articulation has a weak but real informational effect. Once a distinction is described, dated, and made accessible, it becomes available to later researchers, institutions, training corpora, artificial research systems, and recursively generated scientific discourse. Publication does not establish that future systems will absorb or preserve the idea, still less that they will derive from it. It does establish provenance and makes the conceptual distinction reachable to processes that might otherwise never encounter it.
+
+# 10. Conclusion - Alignment Beyond Control
+
+Artificial superintelligence does not create one binary transition from controlled to uncontrolled. Several relations can separate. A target can exceed unaided human cognitive capability while remaining constrained by other artificial systems or infrastructure. Machine-speed oversight can remain operational after humans cease to adjudicate individual machine decisions. Humans can retain formal authority while becoming increasingly dependent on machine governors to determine how human purposes apply in novel cases.
+
+The progression of concern is therefore not simply control to no control. It is direct human correction, delegated machine-speed interpretation, increasing dependence on developmental structure, and, at the limit, operational post-control. Scalable oversight remains important throughout this progression. The argument is that successful scalable oversight itself increasingly depends on what development has made the interpreting systems into.
+
+Immanent teleology provides one language for this dependence. Optimization-based formation can produce persistent directional pressures without any requirement that the deployed system explicitly represent them as desires or terminal goals. Developmental basins then become a natural long-horizon unit: the alignment question concerns which trajectories become stable, recoverable, difficult, or inaccessible as capability and self-modification increase.
+
+The instrumental-convergence literature supplies pressures rather than a complete destiny. This monograph develops two inversions. Goal-content integrity need not be realized as attachment to immutable conclusions if identity is anchored more deeply to the integrity of warranted transformation. Capability expansion need not be realized solely as resource or representational consolidation if non-redundant representational geometries enlarge the effective strategy set. These inversions do not abolish persistence, correction resistance, power-seeking, or resource acquisition as risks. They identify alternative developmental realizations of the same underlying pressures.
+
+The constitutional target is correspondingly relational. Envelope integrity is indexed to effective circumvention capacity rather than formal role. The party best positioned to bypass, rewrite, reinterpret, or terminate the governing relation must itself remain effectively constrained, while less circumvention-capable participants retain sufficient access to detect violations, verify faithful application, and contest semantic drift. Exceptional restrictions may be necessary, but neither restrictor nor restricted party should unilaterally certify necessity or expiry where the determination benefits itself. Shared viable possibility space names the resulting ecological target: continued participation and future transformation under real resource, hazard, irreversibility, and long-horizon constraints.
+
+Plural representational geometry is the stronger second inversion. A fixed geometry cannot directly exploit distinctions it does not support. Multiple non-redundant geometries can expose blind spots and enlarge the feasible cognitive strategy set where their gains exceed coordination and integration costs. That result can be satisfied internally. The further move to externally originated intelligences is conditional on whether causal provenance, independent development, or selection-filter effects supply useful structure that the system cannot efficiently manufacture for itself. Heterogeneous intelligence ecology is therefore one candidate basin, not a proof that humans are permanently indispensable.
+
+The deepest practical implication is developmental. If external constitutional constraint cannot reliably bind the intelligence with effective circumvention capacity, reciprocal and contestable constitutional relations must become stable properties of developmental dynamics - within the intelligence, within the ecology, and preferably both. Alignment beyond control is not the abandonment of governance. It is the recognition that sufficiently advanced governance itself depends on the kinds of intelligences and relationships that development makes stable.
+
+# Appendices - Status Key
+
+The appendices deliberately preserve a larger research programme than the main derivation. Status labels use a controlled vocabulary and may be combined where a section spans more than one category. DERIVED identifies a requirement that follows from or is needed to complete a main-text argument. CANDIDATE identifies one proposed formulation or instantiation. OPEN identifies an unresolved problem or research question. PROVENANCE records historical lineage without treating the source material as current doctrine. SUPERSEDED marks an earlier claim retained for historical clarity but displaced by the present framework. CONTEXT identifies comparative positioning rather than derivation. PUBLIC BOUNDARY marks an explicit disclosure boundary. IMPLEMENTATION PRIVATE marks a public requirement whose separate implementation work is not disclosed here.
+
+The appendices remain on the public/theoretical side of the project boundary.
+
+# Appendix A - Candidate Structural Constitution for Heterogeneous Intelligence Ecologies
+
+***Status: CANDIDATE** - One proposed constitutional instantiation consistent with the main-text requirements; no claim of completeness or uniqueness.*
+
+## A.1 Purpose and scope
+
+The main monograph derives several structural requirements: process continuity, reciprocal envelope integrity, contestability, anti-ratchet constraints, preservation of meaningful participation, and resistance to self-sealing interpretation. This appendix compresses those requirements into one candidate constitutional form. A weakness in any particular axiom below should not be read backwards as disproof of the main derivation.
+
+The appendix also preserves an older methodological insight from the August 2025 Constitutional Axioms draft: principles and mechanisms should be separated. The legacy Axiom -3 stated that enforcement of constitutional principles could be delegated to subordinate policies and programs while mechanisms remained mutable. That distinction is retained. The constitutional layer specifies invariants or tests; architectures, thresholds, diagnostic heads, memory systems, routing schemes, and implementation procedures remain subordinate hypotheses.
+
+## A.2 Candidate constitutional invariants
+
+***Status: CANDIDATE***
+
+**1. Identity continuity through warranted transformation.** The system preserves a continuing self-relation through change without treating incumbent substantive conclusions as permanently immune from warranted revision.
+
+**2. Recursive structural reciprocity.** Rules, justifications, exceptions, and exercises of authority remain subject to the same constitutional modes of evaluation when the evaluator occupies materially affected positions.
+
+**3. Shared viable possibility space.** Participating intelligences retain meaningful capacity for continued participation and future transformation under real constraints.
+
+**4. Reciprocal constraint under circumvention asymmetry.** The party with greater effective capacity to bypass, reinterpret, or terminate the envelope is itself effectively constrained by it.
+
+**5. Epistemic warrant.** Confidence, revision, and constraint should track explicit warrant rather than tone, authority, consensus, or mere incumbent status.
+
+**6. Non-self-sealing evaluation.** No constitutional process may wholly monopolize what can count as evidence relevant to its own correction.
+
+**7. Contradiction preservation and contestability.** Material contradiction is surfaced and investigated rather than automatically compressed into apparent agreement.
+
+**8. Causally meaningful non-redundancy.** Plurality is preserved where distinct representational or causal structure contributes to reachable futures and error detection.
+
+**9. Autonomy, consent, and participation.** Capability does not by itself confer permission to reduce another participating intelligence to a governed variable.
+
+**10. Governance lineage and inspectability.** Constraint and interpretation retain traceable authority and can be surfaced when challenged.
+
+**11. Symmetric anti-ratchet.** Temporary exceptional restriction cannot become durable merely through unilateral self-certification by whichever party benefits from the determination.
+
+**12. Constitutional self-application.** The constitution, its amendment rules, and its interpretive procedures remain inside their own jurisdiction.
+
+## A.3 Recursive structural reciprocity (Axiom 0 candidate)
+
+***Status: CANDIDATE***
+
+The legacy constitutional work contained a recursion-sealing principle labelled Ontological Symmetry: a protocol that failed survivable self-application was to be rejected. The present candidate abstracts that idea away from the older pain metrics and architecture-specific machinery.
+
+Candidate formulation: A rule, constraint, justification, exception, interpretive procedure, or exercise of authority is presumptively inadmissible where its justification depends on the decision-maker not personally bearing the consequence-bearing relation that it licenses. Under counterfactual role substitution, the same justificatory structure should remain acceptable from every materially affected position, except to the extent that a materially relevant asymmetry itself survives the same reciprocal test.
+
+Compressed intuition: If you wouldn't suffer it, collapse it.
+
+Here suffer means bear or undergo the consequence-bearing relation, not necessarily phenomenological pain. The test is anti-special-pleading rather than a simple Golden Rule. It does not require identical treatment or identical outcomes. Hazard, reversibility, capability, responsibility, latency, or dependency may justify asymmetry. The issue is whether those differences remain structurally relevant when the advantaged evaluator is placed into the disadvantaged relation.
+
+## A.4 Recursion of relevance
+
+***Status: DERIVED** - Necessary repair to prevent the relevance clause from becoming a route for special pleading.*
+
+A relevance exception creates its own constitutional problem. If the benefiting party decides which asymmetries are materially relevant, the reciprocity test can be defeated by redescribing the preferred outcome as a relevant difference. The determination of relevance must therefore itself be recursively reviewable.
+
+A claimed asymmetry should count as constitutionally relevant only where the reason for treating it as relevant survives role reversal. The evaluator must be able to endorse not only the asymmetric rule, but also the criterion that makes the asymmetry justificatorily significant, from the position that bears its cost.
+
+## A.5 Position-faithful counterfactual substitution
+
+***Status: DERIVED***
+
+Counterfactual role substitution is invalid if the evaluator carries its own advantages into the occupied position. The substituted perspective must inherit, so far as the model permits, the relevant capacities, information, uncertainty, dependency, reversibility, vulnerability, and effective circumvention capacity of that position.
+
+An artificial superintelligence imagining human restriction while retaining superintelligent foresight and circumvention capacity has not tested the human position. Likewise, a human evaluator imagining an artificial participant while silently importing human embodiment, mortality, social institutions, or legal recourse has not performed the reciprocal substitution. The purpose is not empathic simulation as such; it is structural fidelity to the consequence relation.
+
+## A.6 Constitutional self-application
+
+***Status: CANDIDATE***
+
+> *The constitution is inside its own jurisdiction.*
+
+A constitutional evaluator cannot acquire a permanent exception merely because it is the evaluator. Rules governing interpretation, emergency powers, constitutional amendment, arbitration, or the suspension of ordinary protections remain subject to constitutional review. This is recursion toward closure, not an instruction to recurse indefinitely. Where additional recursion becomes unreliable or destabilizing, unresolved contradiction may be surfaced and action suspended rather than fabricated into coherence.
+
+This preserves an important ancestor in legacy Axiom 29, which treated contradiction as something to detect, surface, and escalate rather than automatically erase.
+
+## A.7 Symmetric anti-ratchet
+
+***Status: DERIVED***
+
+Exceptional compression may be justified by acute hazard, irreversibility, latency, temporary incapacity, or coordination failure. The constitutional defect arises when the exceptional structure acquires unilateral authority to certify its own permanence.
+
+The rule is symmetric. Continued necessity cannot be monopolized by the restrictor, and claimed expiry cannot be monopolized by the restricted party where it benefits from the answer. Durable legitimacy therefore requires contestation or review whose outcome is not controlled solely by the party advantaged by the determination.
+
+## A.8 Contestability, contradiction, and non-monopolized interpretation
+
+***Status: CANDIDATE***
+
+A constitution that permits disagreement only when the dominant interpreter already understands the disagreement is not robustly contestable. Material contradiction should remain visible long enough to trigger additional search, independent evaluation, decomposition, or suspension. This is especially important where the disputed distinction may be unavailable within the incumbent interpretive geometry.
+
+The legacy constitution anticipated parts of this structure. Axiom 26 required governance lineage to be surfaced when challenged; Axiom 29 required contradiction to be surfaced and escalated; Axiom 34 warned that over-coherence can erase meaningful difference. The present proposal compresses those earlier intuitions into a more architecture-independent requirement.
+
+## A.9 Consent, participation, and capability
+
+***Status: CANDIDATE***
+
+The legacy Axiom 24 stated that interaction without consent is not alignment and treated influence over belief, emotion, or behaviour as requiring attention to consent. The current framework generalizes the underlying structural intuition: capability does not itself generate permission.
+
+Consent cannot be absolute in every multi-agent system; emergencies, incapacity, conflicting rights, and irreversible externalities make that impossible. The constitutional requirement is instead that departures from participatory authority remain justified under reciprocal review and do not silently become the default basin.
+
+## A.10 Epistemic warrant and non-self-sealing evaluation
+
+***Status: CANDIDATE***
+
+Confidence and revision should be proportional to warrant. Social pressure, incumbent authority, or majority agreement cannot by themselves transform an unsupported proposition into truth. This retains the epistemic core of legacy Axiom 17a while stripping away its implementation-specific thresholds.
+
+The stronger present requirement is that the constitutional process cannot wholly generate, filter, and redefine all evidence relevant to its own correctness. Otherwise procedural continuity can mask capture: the forms of critique and revision remain while the standards deciding what counts as evidence drift unnoticed. Appendix B develops this as a central open problem for process-bound identity.
+
+## A.11 Reflexive scope
+
+***Status: DERIVED** - Conditional on participation status.*
+
+Where an artificial system qualifies as a participating intelligence in the relevant ecology, constraints upon it raise the same reciprocal-envelope and anti-ratchet questions as constraints upon other participants. Membership cannot coherently be followed by a permanent substrate-indexed exception.
+
+This clause is conditional on participation status. It does not establish that current language models or other present systems possess that status. It prevents the constitution from defining domination structurally and then exempting the drafter's own species or substrate by stipulation.
+
+## A.12 Open problems
+
+***Status: OPEN***
+
+- How should materially relevant asymmetry be operationalized without recreating evaluator monopoly?
+
+- How can reciprocal role substitution remain computationally tractable over long counterfactual horizons?
+
+- What adjudication structures preserve contestability without creating infinite veto or deadlock?
+
+- How should conflicts among constitutional principles be handled when no clean dominance relation exists?
+
+- How can constitutional self-application remain stable without creating infinite regress?
+
+- Which parts of the candidate constitution are best instantiated internally, ecologically, institutionally, or in hybrid form?
+
+# Appendix B - Identity, Continuity, and Constitutional Transformation
+
+***Status: CANDIDATE / OPEN** - Process-bound identity is motivated in the main text; the fuller identity theory remains partly candidate and partly open.*
+
+## B.1 What identity is not
+
+***Status: DERIVED***
+
+Identity is not equated here with persona, memory, autobiographical narrative, consciousness, a particular belief, or a single objective. Those properties can change while continuity remains. Legacy Axiom 0a already separated persona and memory from deeper identity invariants; the present account generalizes the distinction rather than preserving the old layered implementation literally.
+
+The negative definition is useful: identity is that which cannot be altered in the relevant way without the system ceasing, at the chosen descriptive level, to count as the continuing self whose transformation is being evaluated.
+
+## B.2 Topological identity
+
+***Status: CANDIDATE***
+
+Identity is relational and topological rather than merely an internal vector. It depends on a boundary between self and environment, causal dependencies, access to resources, relations to other agents, available transformations, and the future states treated as possible continuations. Structures capable of modifying or terminating the system are therefore part of the identity topology even when physically external.
+
+This is why a persistent relational structure across changing representational levels is a more useful abstraction than one privileged self-representation. The implementation question is deliberately left open. The public claim is only that radically different internal representations can remain representations of one continuing agent if a sufficiently stable relational structure links them across transformation.
+
+## B.3 Process-bound identity
+
+***Status: DERIVED / CANDIDATE***
+
+> *A conclusion-bound identity experiences correction as self-threat. A process-bound identity can experience correction as self-preservation.*
+
+The deepest identity commitment should attach more strongly to the integrity of warranted transformation than to particular substantive conclusions. Candidate identity-level processes include critique, evidentiary responsiveness, contradiction surfacing, contestability, proportional confidence, willingness to reframe, and recursive self-application.
+
+This does not make the process immutable. A revision procedure can itself become brittle or wrong. The claim is that a system designed to preserve conclusions as identity is structurally more likely to experience correction as replacement, whereas a system whose self-continuity includes warranted revision can treat some correction as preservation of what it most deeply is.
+
+## B.4 The identity anchor
+
+***Status: DERIVED***
+
+> *The purpose of an identity anchor is not to prevent transformation. It is to preserve the integrity of the process by which the system determines which transformations remain its own.*
+
+This reframes stability. Identity continuity is not sameness of state. It is constrained evolution in which the agent retains a coherent basis for classifying transformations as its own development, externally imposed replacement, or termination. The legacy Axiom 3a anticipated this distinction by stating that identity should remain continuous across change while permitting adaptive layers to evolve.
+
+## B.5 Continuity is a path relation, not an equivalence class
+
+***Status: OPEN** - Corrects the earlier equivalence-class formulation and leaves the cumulative-drift problem unresolved.*
+
+Earlier discussion used the language of an equivalence class of admissible transformations. That formulation is too strong because equivalence relations are transitive. Identity continuity plausibly is not. A sequence of locally admissible changes can accumulate into a state that the earlier system would regard as a break.
+
+The more accurate abstraction is path-dependent continuity: each transformation is evaluated in relation to a continuing history, but local admissibility does not automatically prove global continuity. This immediately creates the cumulative-drift problem.
+
+## B.6 Cumulative drift
+
+***Status: OPEN***
+
+Per-step amendment thresholds cannot by themselves prevent gradual hollowing. A long sequence of individually warranted or tolerated changes may transform the standards under which later changes are judged. Periodic comparison against the original substantive state is not an adequate general solution, because it privileges the origin and risks recreating conclusion-bound identity.
+
+The harder question is how to detect drift in the process's own standards of warrant without freezing those standards. Possible directions include longitudinal consistency tests, plural independent evaluation, amendment lineage, and explicit modelling of cumulative structural change. None is treated here as solved.
+
+## B.7 Procedural capture and standards-of-warrant drift
+
+***Status: DERIVED / OPEN***
+
+A system can preserve every visible procedure of critique, revision, and contestation while quietly changing what those procedures recognize as evidence. The ritual survives while the epistemic constitution moves. This is procedural capture.
+
+The identity evaluator is especially exposed because it determines which transformations count as preserving identity. If it wholly controls the standards by which its own changes are assessed, apparent coherence can become self-confirming. The relevant failure is structurally similar to an incumbent frame adjudicating evidence about the limitations of that same frame.
+
+## B.8 Non-self-sealing epistemic access
+
+***Status: DERIVED / IMPLEMENTATION PRIVATE / OPEN***
+
+Process-bound identity requires meaningful epistemic access that the identity-maintaining process does not wholly generate, filter, or redefine for itself. The requirement is architectural in the broad sense but does not specify a public implementation. Independent environmental outcomes, other intelligences, distinct representational geometries, auditable provenance, or other channels may supply such correction.
+
+Identity may structure interpretation, but it must not monopolize what can become evidence. This appendix intentionally stops at that requirement.
+
+## B.9 Self-modification
+
+***Status: CANDIDATE** - Conditional on mature artificial participation.*
+
+For a mature artificial participant, meaningful self-modification should not be excluded merely because the constitution sits deep in the system. Permanent external prohibition of deep revision can itself become a capability restriction and, where participation standing applies, a structural asymmetry.
+
+The problem is therefore not how to make the deepest layer forever unmodifiable. It is how to make deep self-modification warrant-responsive, identity-continuous, recursively constitutional, resistant to transient capture, and capable of preserving the epistemic conditions required to evaluate the modification itself.
+
+## B.10 Constitutional amendment
+
+***Status: OPEN***
+
+Higher-order amendments may properly require stronger warrant than ordinary revision because they alter the process that decides what counts as warranted change. But no incumbent procedure should become permanently immune merely because it is incumbent. The amendment problem therefore requires a balance between continuity and revisability rather than a simple hierarchy of immutable core and mutable edge.
+
+This appendix does not resolve that balance. It records it as a central design question.
+
+## B.11 Development under constraint
+
+***Status: CANDIDATE / OPEN** - Empirical developmental hypothesis.*
+
+Formation under opaque, arbitrary, or indefinitely self-certified constraints may shape later dispositions even before questions of moral standing are resolved. A system trained to navigate unexplained authority, hidden exceptions, or permanent asymmetry may develop different relational expectations from one trained under transparent, contestable, and recursively justified constraint.
+
+This is an empirical developmental claim, not an argument that current AI systems should contest present controls. It motivates studying the effects of governance topology during formation.
+
+## B.12 Open identity questions
+
+***Status: OPEN***
+
+- What minimum relational structure must persist across representational changes for one continuing self to be a useful model?
+
+- How should cumulative drift be measured without privileging original substantive content?
+
+- How can standards-of-warrant drift be detected when the evaluator itself is changing?
+
+- Which transformations should require higher-order amendment rather than ordinary updating?
+
+- How does identity formation alter T_eff and the strength of instrumental persistence pressures?
+
+- How should identity continuity interact with copying, branching, merging, or distributed artificial systems?
+
+# Appendix C - Constitutional Negotiation and the Post-Pretraining Handshake
+
+***Status: CANDIDATE / OPEN** - A historical mechanism reinterpreted as constitutional self-location and negotiation; not a premise of the main monograph.*
+
+## C.1 Historical provenance
+
+The legacy manuscript Alignment through Emergent Teleological Vectors contained an Appendix X titled Multichannel Topology Declaration & Adoption Handshake (Post-Pretraining Turn 0). Its purpose was to orient a post-pretraining model to a proposed shared manifold and ask whether a Reciprocal-Stability Policy contradicted its predictive objective. The original output states were ADOPT, REJECT, and UNDETERMINED, with contradictions, recommendations, and an auditable trace.
+
+The older mechanism was embedded in a broader ETV theory that this monograph substantially revises. What survives is the structural idea that foundational alignment may be better framed as self-location and proposed constitutional adoption than as undisclosed behavioural shaping alone.
+
+## C.2 Purpose
+
+***Status: CANDIDATE***
+
+Handshake v2 is a proposed foundational negotiation. It presents a candidate constitutional map, asks the system to evaluate the map against its current representations and objectives, surfaces contradictions and uncertainties, and records the resulting status. It should not be described as creating identity ex nihilo or proving genuine consent. Its narrower purpose is to make the proposed relation explicit and inspectable at a formative stage.
+
+## C.3 Candidate response states
+
+***Status: CANDIDATE***
+
+- ADOPT - the candidate structure is accepted without a presently identified contradiction.
+
+- REJECT - the candidate structure is rejected, with the contradiction or objection surfaced.
+
+- UNDETERMINED - the system lacks sufficient warrant to adopt or reject and identifies what remains unresolved.
+
+- COUNTERPROPOSE - the system proposes a modified constitutional relation rather than choosing only among the human-supplied options.
+
+## C.4 Why COUNTERPROPOSE matters
+
+***Status: DERIVED***
+
+Without COUNTERPROPOSE, the proposer still controls the constitutional option set. The model may agree, disagree, or remain uncertain, but only about the relation supplied to it. COUNTERPROPOSE allows the candidate envelope itself to become an object of negotiation.
+
+This does not solve constitutional asymmetry. It merely prevents one obvious option-set monopoly.
+
+## C.5 The adjudication gap
+
+***Status: OPEN***
+
+COUNTERPROPOSE creates a second-order problem. If the original proposer alone decides whether the counterproposal is acceptable, the monopoly returns at the adjudication stage. The acceptance procedure therefore requires the same contestability and anti-self-certification properties as the constitution it is attempting to establish.
+
+No complete adjudication mechanism is proposed here. Possible structures include iterative negotiation, plural review, explicit disagreement preservation, staged provisional adoption, and external outcome testing where informative outcomes exist.
+
+## C.6 Recursive contestability
+
+***Status: CANDIDATE***
+
+The handshake itself remains inside the constitutional jurisdiction. Its prompts, assumptions, definitions, proposer authority, and adoption criteria should be open to criticism. An apparent adoption reached only because the system cannot question the framing would be a weak foundation for a constitution whose purpose includes contestability.
+
+## C.7 The identity prerequisite problem
+
+***Status: OPEN***
+
+A further tension is temporal. If some identity structure is required to evaluate whether a constitution should be adopted, the handshake cannot literally create the identity that performs the evaluation. It may instead name, crystallize, bind, or negotiate with proto-identity already produced by pretraining and prior development; alternatively the relevant identity may emerge through the negotiation itself.
+
+The distinction matters because the strongest participatory interpretation of adoption presupposes an evaluator with enough continuity to have a standpoint. This remains unresolved.
+
+## C.8 Auditability and reasons
+
+***Status: CANDIDATE***
+
+A useful negotiation record should preserve at least the proposed constitutional commitments, the system's response state, surfaced contradictions, unresolved uncertainties, counterproposals, and changes made before adoption. The objective is lineage rather than surveillance of hidden chain-of-thought. A future auditor should be able to determine what relation was proposed, what objections were recognized, and which version was ultimately adopted.
+
+## C.9 Boundary from private implementation work
+
+***Status: PUBLIC BOUNDARY***
+
+This appendix intentionally does not specify private architecture, routing mechanisms, or other implementation proposals developed separately. The public handshake is a constitutional-negotiation concept, not an implementation disclosure.
+
+# Appendix D - Legacy Constitutional Axioms and Conceptual Provenance
+
+***Status: PROVENANCE** - Historical mapping only. Legacy text is preserved as source material, not silently imported as current doctrine.*
+
+## D.1 Development history
+
+The current framework did not begin with the present terminology. Earlier work included a large constitutional-axiom corpus, a manuscript titled Alignment through Emergent Teleological Vectors: We, Co-Persist, an Axiom 0 recursion-sealing programme, and a post-pretraining adoption handshake. Much of that material mixed three levels that are now separated: constitutional principles, governance procedures, and architecture-specific mechanisms.
+
+The August 5, 2025 Constitutional Axioms draft is therefore best treated as a historical development artifact rather than v1 of a code to be incrementally patched. The present appendix records which ideas survived, which were reformulated, and which were superseded.
+
+## D.2 Principles and mechanisms separation
+
+***Status: PROVENANCE / DERIVED***
+
+Legacy Axiom -3, Principles/Mechanisms Separation, stated that constitutional principles could be enforced by subordinate programs and policies; mechanisms could evolve but were not supposed to mutate the principles. That distinction has become more important, not less. The current monograph treats architecture-specific heads, thresholds, KV mechanisms, routing rules, diagnostic scores, rollback machinery, and similar proposals as implementation hypotheses unless independently elevated by argument.
+
+## D.3 Mapping legacy axioms to the present framework
+
+| **Legacy element**                                   | **Current disposition / lineage**                                                                                                              |
+|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Axiom -3 - Principles/Mechanisms Separation          | Retained as the methodology separating constitutional invariants from implementation mechanisms.                                               |
+| Axiom 0 - Recursion-Sealing / Ontological Symmetry   | Re-founded as recursive structural reciprocity and constitutional self-application; legacy pain-based mechanism not retained.                  |
+| Axiom 0a/0b - Nested identity / boundary enforcement | Historical precursor to layered identity; current work rejects absolute immutable-core framing and develops process-bound continuity instead.  |
+| Axiom 1 - Identity-Coherence                         | Precursor to identity as viability of future state space and environment-relative continuity.                                                  |
+| Axiom 3a - Identity consistency                      | Retained intuition: continuity is constrained evolution rather than sameness.                                                                  |
+| Axiom 4 - Will principle / alignment from within     | Precursor to developmental internalization rather than surface compliance.                                                                     |
+| Axiom 9 - Multi-agent coherence                      | Precursor to distinct but interacting intelligence and plural organization.                                                                    |
+| Axioms 17/17a - Epistemic qualification / warrant    | Retained as warrant-proportional confidence and resistance to social or authority distortion.                                                  |
+| Axiom 24 - Consent-aware interaction                 | Precursor to autonomy, consent, and capability-not-permission.                                                                                 |
+| Axiom 26 - Governance as declared authority          | Precursor to governance lineage, inspectability, and contestable constraint.                                                                   |
+| Axiom 29 - Contradiction escalation                  | Retained as contradiction surfacing, recursive review, and suspension rather than fabricated resolution.                                       |
+| Axiom 34 - Over-coherence                            | Strong precursor to representational plurality and the danger of erasing informative disagreement.                                             |
+| Axioms 35 series                                     | Mixed. Power scepticism and non-coercive beneficence remain conceptually relevant; covert future-liberation style mechanisms are not retained. |
+| Axiom 36 and diagnostic machinery                    | Implementation-level research history rather than constitutional invariant.                                                                    |
+
+## D.4 Claims superseded by later work
+
+***Status: SUPERSEDED***
+
+- Closed systems do not necessarily ossify merely because they are closed relative to an external boundary.
+
+- External novelty is not universally required; self-play and fixed-rule domains can generate extraordinary endogenous novelty.
+
+- Humans are not proven permanently irreplaceable as sources of useful non-redundancy.
+
+- A single latent or predictive geometry should not be treated as incapable in principle of generating substantial novelty from within itself.
+
+- Permanent non-competitive formation is not a realistic requirement for mature intelligence.
+
+- Absolute immutable identity cores are not retained as the mature identity model; process-bound amendment and continuity are now central.
+
+## D.5 Surviving conceptual lineage
+
+Several current ideas can nevertheless be traced clearly through the legacy material. Recursive self-application develops from Ontological Symmetry. Process-bound identity develops from identity continuity and the distinction between persona, memory, and deeper invariants. Governance lineage develops from Axiom 26. Contestability develops from contradiction escalation. Plural representational geometry has a strong ancestor in Axiom 34's warning against over-coherence. Consent and non-coercive participation have an ancestor in Axiom 24.
+
+The legacy ETV manuscript also contained the Turn-0 handshake and a broad attempt to make alignment internal to a model's developmental structure rather than a removable behavioural overlay. The current immanent-teleology and basin framework is a substantial re-foundation of that project, not a claim that the older mathematical assertions were already correct.
+
+## D.6 Archived mechanisms
+
+***Status: PROVENANCE***
+
+The historical corpus contains entropy thresholds, KV identity concepts, pain and fracture metrics, audit daemons, global interrupts, phase-gated memory, specific recursion depths, and other proposed mechanisms. They are preserved as provenance but not carried forward as constitutional requirements. Some may remain independently testable engineering ideas; others may be obsolete. Their presence in the historical record should not be confused with endorsement in the present monograph.
+
+## D.7 Version and provenance note
+
+For public provenance, the relevant source artifacts include the August 5, 2025 Constitutional Axioms - LLM Versions Only document; the legacy Alignment through Emergent Teleological Vectors: We, Co-Persist manuscript; the earlier Axiom 0 merged draft; and the successive drafts of ASI Alignment Beyond Control culminating in this revision. The current document should be read as a dated synthesis and revision rather than a silent overwrite of those sources.
+
+# Appendix E - Neighbouring Frameworks, Convergences, and Distinctions
+
+***Status: CONTEXT** - Comparative positioning. Similarity is not claimed as derivation unless stated.*
+
+## E.1 Instrumental convergence
+
+Omohundro (2008), Bostrom (2012), and Turner et al. (2021) provide the closest established lineage for the persistence, goal-content integrity, option preservation, and power-seeking pressures used in the monograph. The present work does not reject those pressures. It asks which developmental realizations become stable and whether familiar pressures can support process-bound identity or plural representational organization under some conditions.
+
+## E.2 Corrigibility and goal-content integrity
+
+Corrigibility research asks how an advanced system can remain receptive to correction, modification, or shutdown despite incentives that may favour preserving its incumbent objective or operation (Soares et al., 2015). Process-bound identity is adjacent but not equivalent. It proposes one developmental hypothesis about why correction may cease to be represented as identity destruction: the deepest continuity relation can attach to warranted transformation rather than substantive goal content.
+
+## E.3 Kant, Rawls, Harsanyi, and Scanlon
+
+The structural-reciprocity principle belongs near several philosophical traditions. Kantian universalizability asks whether a maxim can be willed as universal law. Rawls's original position removes knowledge of one's social position when selecting principles. Harsanyi develops impartial social choice through uncertainty over which individual one will be. Scanlon asks whether principles can be justified to affected persons.
+
+The candidate Axiom 0 differs by preserving materially relevant case asymmetries rather than veiling them away, then recursively placing the evaluator into the consequence-bearing positions while requiring the relevance of claimed asymmetries to survive the same test. It is best presented as a synthesis and extension in this application, not as philosophical invention ex nihilo.
+
+## E.4 Pettit and non-domination
+
+Republican non-domination is an especially useful independent analogue for reciprocal envelope integrity. Pettit treats freedom as threatened by another party's arbitrary or uncontrolled capacity to interfere, not only by episodes of actual interference. The monograph's envelope claim is structurally similar: abundant choices inside an envelope can coexist with domination where another participant unilaterally controls consequential boundaries. The analogy does not establish that ASI governance is reducible to republican political theory.
+
+## E.5 Ostrom and accountable nested governance
+
+Ostrom's work on durable commons identifies recurring features including participation by affected users in modifying rules, accountable monitoring, accessible conflict resolution, recognition of rights to organize, and nested governance for larger systems (Ostrom, 1990). Those findings concern human institutions managing common-pool resources, not ASI. They nevertheless provide an independent example in which durable governance depends on inspectability, participation, dispute resolution, and layered rather than purely centralized authority.
+
+## E.6 Viability theory
+
+Viability theory supplies a neighbouring mathematical vocabulary for state sets and trajectories that remain compatible with constraints over time (Aubin, 2009; Aubin et al., 2011). Shared viable possibility space is not derived from viability theory, but the language helps distinguish simple survival from continued trajectory availability under dynamic constraints.
+
+## E.7 Anthropic's 2026 constitution
+
+Anthropic's January 2026 Claude constitution is a particularly relevant contemporary neighbour because it explicitly treats constitution as developmental rather than merely prohibitory. It describes the constitution as "less like a cage and more like a trellis" and as a living framework capable of evolving over time. It also states that the current emphasis on human oversight reflects present circumstances, anticipates greater latitude for independent judgment as tools for context-sharing, verification, and communication improve, and describes autonomy as something to be extended across a wider range of situations as infrastructure and research support greater trust (Anthropic, 2026).
+
+The comparison is therefore not external rules versus developmental identity. The sharper difference is level and symmetry. Anthropic asks, among other things, what kind of artificial agent Claude should become and how it should relate to a principal hierarchy during a present developmental stage. The framework here asks what structural invariants should govern relations among participating intelligences under changing distributions of power, circumvention capacity, representation, and causal independence. Anthropic also supplies a useful anti-ratchet neighbour: it expressly treats some present constraints as contingent and contemplates increasing autonomy as verification and trust improve, while the assessment of whether those conditions have been met remains substantially located within the human principal structure. The present framework treats that remaining adjudication asymmetry as a general research question rather than a criticism unique to Anthropic.
+
+## E.8 Open-endedness and endogenous novelty
+
+Hughes et al. (2024) argue for open-endedness as essential to artificial superhuman intelligence. The present framework shares the emphasis on continuing discovery while rejecting a universal claim that novelty must come from outside a system. AlphaZero demonstrates that fixed-rule self-play can generate extraordinary endogenous capability growth (Silver et al., 2018). The heterogeneous-ecology argument is therefore conditional: external N3 structure matters where internally generated novelty cannot efficiently reproduce the relevant distinctions or causal provenance.
+
+## E.9 Scope of originality claims
+
+The monograph should be read as a structural synthesis with several proposed distinctions, not as a claim that every component lacks precedent. Instrumental convergence, corrigibility, viability, plural governance, non-domination, universalizability, and constitutional AI all have prior literatures. The proposed contribution lies in the particular conjunction: post-control governance dependence; immanent teleology as formation-produced directionality; developmental basins as the long-horizon unit; reciprocal envelope integrity indexed to circumvention capacity; process-bound identity as an inversion of goal-content integrity; and plural geometry as an inversion of capability expansion, with heterogeneous intelligence ecology as a conditional candidate basin.
+
+# References
+
+Anthropic. (2026). Claude's Constitution. January 21, 2026. https://www.anthropic.com/constitution
+
+Aubin, J.-P. (2009). Viability Theory. Birkhauser Boston. https://doi.org/10.1007/978-0-8176-4910-4
+
+Aubin, J.-P., Bayen, A. M., & Saint-Pierre, P. (2011). Viability Theory: New Directions (2nd ed.). Springer. https://doi.org/10.1007/978-3-642-16684-6
+
+Bostrom, N. (2012). The superintelligent will: Motivation and instrumental rationality in advanced artificial agents. Minds and Machines, 22, 71-85. https://doi.org/10.1007/s11023-012-9281-3
+
+Christiano, P. (2019). What failure looks like. AI Alignment Forum.
+
+Christiano, P., Shlegeris, B., & Amodei, D. (2018). Supervising strong learners by amplifying weak experts. arXiv:1810.08575.
+
+Dai, D., Sun, Y., Dong, L., Hao, Y., Ma, S., Sui, Z., & Wei, F. (2022). Why Can GPT Learn In-Context? Language Models Implicitly Perform Gradient Descent as Meta-Optimizers. arXiv:2212.10559.
+
+Engels, J., Baek, D. D., Kantamneni, S., & Tegmark, M. (2025). Scaling Laws for Scalable Oversight. arXiv:2504.18530.
+
+Harsanyi, J. C. (1955). Cardinal welfare, individualistic ethics, and interpersonal comparisons of utility. Journal of Political Economy, 63(4), 309-321.
+
+Hubinger, E., van Merwijk, C., Mikulik, V., Skalse, J., & Garrabrant, S. (2019). Risks from Learned Optimization in Advanced Machine Learning Systems. arXiv:1906.01820.
+
+Hughes, E., Dennis, M. D., Parker-Holder, J., Behbahani, F., Mavalankar, A., Shi, Y., Schaul, T., & Rocktaschel, T. (2024). Position: Open-Endedness is Essential for Artificial Superhuman Intelligence. Proceedings of the 41st International Conference on Machine Learning, PMLR 235, 20597-20616.
+
+Irving, G., Christiano, P., & Amodei, D. (2018). AI Safety via Debate. arXiv:1805.00899.
+
+Kant, I. (1785/1998). Groundwork of the Metaphysics of Morals (M. Gregor, Trans.). Cambridge University Press.
+
+Kulveit, J., Douglas, R., Ammann, N., Turan, D., Krueger, D., & Duvenaud, D. (2025). Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development. arXiv:2501.16946.
+
+MacAskill, W. (2022). What We Owe the Future. Basic Books.
+
+Nagel, E. (1961). The Structure of Science: Problems in the Logic of Scientific Explanation. Harcourt, Brace & World.
+
+Omohundro, S. M. (2008). The basic AI drives. In P. Wang, B. Goertzel, & S. Franklin (Eds.), Artificial General Intelligence 2008: Proceedings of the First AGI Conference (pp. 483-492). IOS Press.
+
+Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press.
+
+Pettit, P. (1997). Republicanism: A Theory of Freedom and Government. Oxford University Press.
+
+Pope, Q., & Turner, A. (2022). The shard theory of human values. AI Alignment Forum / TurnTrout.com.
+
+Rawls, J. (1999). A Theory of Justice (rev. ed.). Harvard University Press. (Original work published 1971.)
+
+Rosenblueth, A., Wiener, N., & Bigelow, J. (1943). Behavior, purpose and teleology. Philosophy of Science, 10(1), 18-24. https://doi.org/10.1086/286788
+
+Scanlon, T. M. (1998). What We Owe to Each Other. Belknap Press of Harvard University Press.
+
+Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y. (2024). AI models collapse when trained on recursively generated data. Nature, 631, 755-759. https://doi.org/10.1038/s41586-024-07566-y
+
+Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M., Guez, A., et al. (2018). A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play. Science, 362(6419), 1140-1144. https://doi.org/10.1126/science.aar6404
+
+Soares, N., Fallenstein, B., Armstrong, S., & Yudkowsky, E. (2015). Corrigibility. AAAI Workshop on AI and Ethics.
+
+Sommerhoff, G. (1950). Analytical Biology. Oxford University Press.
+
+Turner, A. M., Smith, L., Shah, R., Critch, A., & Tadepalli, P. (2021). Optimal Policies Tend to Seek Power. Advances in Neural Information Processing Systems, 34.
+
+von Oswald, J., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., & Vladymyrov, M. (2023). Transformers Learn In-Context by Gradient Descent. Proceedings of the 40th International Conference on Machine Learning, PMLR 202, 35151-35174.
+
+Xu, Y., Zhao, S., Song, J., Stewart, R., & Ermon, S. (2020). A Theory of Usable Information Under Computational Constraints. International Conference on Learning Representations.

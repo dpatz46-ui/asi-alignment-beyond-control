@@ -1,0 +1,28 @@
+# ASI Alignment Beyond Control
+
+> Immanent Teleology, Developmental Basins, and Shared Possibility Space
+
+Author: Dustin Patzer
+Status: Publication Candidate v11
+Repository release: v0.1.0 (2026-09-23)
+Canonical: https://dpatz46-ui.github.io/asi-alignment-beyond-control/
+Repository: https://github.com/dpatz46-ui/asi-alignment-beyond-control
+Full HTML: https://dpatz46-ui.github.io/asi-alignment-beyond-control/paper.html
+PDF: https://dpatz46-ui.github.io/asi-alignment-beyond-control/asi-alignment-beyond-control-v11.pdf
+Full machine-readable text: https://dpatz46-ui.github.io/asi-alignment-beyond-control/llms-full.txt
+
+## Summary
+
+Artificial superintelligence changes the alignment relation before it necessarily eliminates governance. This monograph distinguishes human-governance post-control from operational post-control. The former arises when humans retain nominal or ex ante authority but can no longer independently verify, detect, or enforce faithful application of a governance envelope at the rate and semantic complexity at which consequential machine decisions occur. The latter is the stronger condition in which no available external governance apparatus can reliably monitor and correct the target over the relevant horizon. Scalable oversight may reduce evaluative difficulty without eliminating temporal disparity; sufficiently large differences between machine consequential-action opportunities and human adjudicative opportunities therefore push governance toward sampling, delegation, aggregation, and autonomous machine interpretation. Durable alignment consequently moves upstream toward the developmental structures of the systems interpreting and enforcing purposes at machine speed.
+
+I propose immanent teleology as an analytical category for this regime: persistent, perturbation-robust directional pressure produced by an optimization-based formation history and expressed across a non-trivial range of states or contexts without requiring an explicitly represented goal, desire, or intention. Developmental basins rather than isolated outputs become a central unit of long-horizon analysis. Familiar instrumental-convergence pressures are then reconsidered in two directions. First, goal-content integrity is dangerous where identity attaches to incumbent conclusions; a process-bound identity can instead make warranted correction continuous with self-preservation. Second, capability expansion need not point only toward resource or representational consolidation: plural non-redundant representational geometries can enlarge the feasible cognitive strategy set by exposing distinctions unavailable within a single geometry. The first move motivates a constitutional target organized around process continuity, structural reciprocity, reciprocal envelope integrity, anti-ratchet constraints, and shared viable possibility space. The second motivates plural geometry and, conditionally, a heterogeneous intelligence ecology as one candidate basin.
+
+The argument is deliberately scoped. It does not prove that external control must fail, that humans are permanently irreplaceable, that heterogeneity guarantees freedom, or that present artificial systems possess moral-patient standing. It instead develops a structural research programme for alignment where reliable external correction becomes increasingly dependent on the developmental dispositions of machine interpreters. Large appendices preserve candidate constitutional, identity, negotiation, provenance, and neighbouring-framework material as a public research record while distinguishing derived requirements from candidate instantiations and open problems.
+
+## Key terms
+
+human-governance post-control; operational post-control; immanent teleology; developmental basin; effective continuity horizon T_eff; process-bound identity; reciprocal envelope integrity; shared viable possibility space; plural representational geometry; heterogeneous intelligence ecology.
+
+## License
+
+This discovery file is CC BY 4.0. The full monograph and substantive research artifacts are CC BY-NC 4.0. See LICENSE.md in the repository for the file-level split.

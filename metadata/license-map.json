@@ -1,0 +1,28 @@
+{
+  "substantive_license": "CC BY-NC 4.0",
+  "discovery_license": "CC BY 4.0",
+  "substantive": [
+    "paper.md",
+    "paper/**",
+    "appendices/**",
+    "llms-full.txt",
+    "docs/paper.html",
+    "docs/asi-alignment-beyond-control-v11.pdf",
+    "docs/llms-full.txt"
+  ],
+  "discovery": [
+    "README.md",
+    "llms.txt",
+    "CITATION.cff",
+    "CHANGELOG.md",
+    "RELEASE_CHECKLIST.md",
+    "VERSION",
+    "metadata/**",
+    "docs/index.html",
+    "docs/abstract.html",
+    "docs/llms.txt",
+    "docs/robots.txt",
+    "docs/sitemap.xml",
+    "docs/assets/**"
+  ]
+}

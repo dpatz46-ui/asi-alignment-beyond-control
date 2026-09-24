@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dpatz46-ui.github.io/asi-alignment-beyond-control/sitemap.xml
